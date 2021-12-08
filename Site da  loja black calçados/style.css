@@ -1,5 +1,6 @@
 Header{
     background-color: black;
+    height: auto;
 }
 #headertop{
     color: white;
@@ -23,5 +24,38 @@ Header{
 
 }
 #menutopo{
+    border: solid 1px red;
+    height: 190px;
+
+}
+#menutopo .logomenu{
+
+height: 12em;
+width: 13em;
+margin:0 auto;
+border:solid 1px white;
+}
+#menutopo nav{
     
+    width: 50%;
+    position: relative;
+    left: 50%;
+    bottom: 7em;
+}
+#menutopo ul{
+    border:solid 1px yellow;
+    text-align: right;
+    padding:10px 50px 10px 0px;
+    
+
+}
+#menutopo li{
+    display:inline;
+    font-size:20px;
+    margin-left: 2em;
+    text-decoration: none;
+}
+#menutopo li a{
+    text-decoration: none;
+    color: white;
 }
