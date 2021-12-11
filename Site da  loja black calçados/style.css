@@ -20,42 +20,50 @@ Header{
     font-size:15px;
 }
 #headertop li i{
-    margin-right: 0.5em;
+    margin-right: 0.5em;}
 
-}
+
 #menutopo{
-    border: solid 1px red;
-    height: 190px;
-
+    
+    padding-top:5px;
+    text-align:center;
 }
-#menutopo .logomenu{
-
-height: 12em;
-width: 13em;
-margin:0 auto;
-border:solid 1px white;
+#menutopo img{
+    height: 280px;
+    
 }
 #menutopo nav{
-    
-    width: 50%;
-    position: relative;
-    left: 50%;
-    bottom: 7em;
+    border: 2px solid white;
+    text-align: center;
+    width: 100%;
+    height: auto;
 }
-#menutopo ul{
-    border:solid 1px yellow;
-    text-align: right;
-    padding:10px 50px 10px 0px;
+#menutopo nav ul{
+    padding:20px;
     
 
 }
-#menutopo li{
-    display:inline;
-    font-size:20px;
-    margin-left: 2em;
-    text-decoration: none;
-}
-#menutopo li a{
-    text-decoration: none;
+#menutopo a{
+    text-decoration:none;
     color: white;
+    font-weight:bold;
+    transition:all;
 }
+#menutopo a:hover{
+    color: black;
+}
+#menutopo nav li{
+    border: 2px solid red;
+    display: inline-block;
+    padding:18px;
+    letter-spacing:2px;
+    font-size:15px;
+    text-decoration: none;
+    transition:all;
+    
+    
+}
+#menutopo li:hover{
+    background-color: yellow;
+}
+
