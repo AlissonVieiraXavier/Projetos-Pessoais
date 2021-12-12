@@ -1,9 +1,7 @@
 #content{
    
-    border: 2px solid green;
-    background-image: url(img/back.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    border: 2px solid white;
+    
 }
 #content h1{
     text-align: center;
@@ -15,8 +13,19 @@
 .produtos{
     border: 2px solid blue;
     max-width: 500px;
+    display: inline-block;
+    margin:10px;
+    align-items: center;
+    
 }
 .produtos img{
     width:50%;
     border-radius: 15%;
+    float: left;
+}
+.text-product{
+    border: 2px solid pink;
+    margin-top: 7em;
+    text-align: right;
+    padding-right: 35px;
 }
