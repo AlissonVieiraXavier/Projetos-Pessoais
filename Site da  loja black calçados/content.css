@@ -1,7 +1,9 @@
 #content{
    
     border: 2px solid green;
-    background-color:gray;
+    background-image: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 #content h1{
     text-align: center;
