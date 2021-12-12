@@ -38,32 +38,6 @@ Header{
     width: 100%;
     height: auto;
 }
-#menutopo nav ul{
+#menutopo nav{
     padding:20px;
-    
-
 }
-#menutopo a{
-    text-decoration:none;
-    color: white;
-    font-weight:bold;
-    transition:all;
-}
-#menutopo a:hover{
-    color: black;
-}
-#menutopo nav li{
-    border: 2px solid red;
-    display: inline-block;
-    padding:18px;
-    letter-spacing:2px;
-    font-size:15px;
-    text-decoration: none;
-    transition:all;
-    
-    
-}
-#menutopo li:hover{
-    background-color: yellow;
-}
-
