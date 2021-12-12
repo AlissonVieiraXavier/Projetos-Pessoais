@@ -1,0 +1,20 @@
+#content{
+   
+    border: 2px solid green;
+    background-color:gray;
+}
+#content h1{
+    text-align: center;
+    margin:50px auto;
+    font-size:21px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2.5px black;
+}
+.produtos{
+    border: 2px solid blue;
+    max-width: 500px;
+}
+.produtos img{
+    width:50%;
+    border-radius: 15%;
+}
