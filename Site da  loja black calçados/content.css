@@ -1,6 +1,8 @@
 #content{
    
     border: 2px solid white;
+    background: rgba(128, 128, 128, 0.289);
+
     
 }
 #content h1{
@@ -9,13 +11,15 @@
     font-size:21px;
     font-weight: 600;
     text-shadow: 1px 1px 2.5px black;
+    
 }
 .produtos{
-    border: 2px solid blue;
+   
     max-width: 500px;
     display: inline-block;
     margin:10px;
     align-items: center;
+    margin-left: 2em;
     
 }
 .produtos img{
@@ -24,8 +28,20 @@
     float: left;
 }
 .text-product{
-    border: 2px solid pink;
-    margin-top: 7em;
+    
+    margin-top: 20%;
     text-align: right;
-    padding-right: 35px;
+    padding-right: 30px;
+    font-size:15px;
+    font-weight: 550;
+}
+#icons1 , #icons2{
+    font-size:22px;
+    margin-left:2px;
+}
+#icons1{
+    color: #998502
+}
+#icons2{
+    color: red;
 }
