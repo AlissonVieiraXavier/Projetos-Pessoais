@@ -1,3 +1,8 @@
+body{
+    font-family: 'Noto Sans Display', sans-serif;
+}
+
+
 Header{
     background-color: black;
     height: auto;
@@ -33,11 +38,27 @@ Header{
     
 }
 #menutopo nav{
-    border: 2px solid white;
     text-align: center;
     width: 100%;
     height: auto;
 }
-#menutopo nav{
+#menutopo li{
     padding:20px;
+    display: inline-block;
+    margin-right: 1em;
+    margin-left: 1em;
+
+}
+#menutopo li:hover{
+    background-color: #fedc09;
+    border-radius: 5px;
+}
+#menutopo a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+#menutopo a:active{
+    color:black;
 }
