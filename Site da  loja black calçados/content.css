@@ -1,6 +1,6 @@
 #content{
     border: 2px solid white;
-    background: rgba(128, 128, 128, 0.289);
+   /* background: rgba(128, 128, 128, 0.289);*/
     width: 100%;
     display:flex;
     flex-wrap: wrap;
@@ -9,7 +9,7 @@
 
     
 }
-#content h1{
+h1 {
     text-align: center;
     margin:50px auto;
     font-size:21px;
@@ -17,18 +17,22 @@
     text-shadow: 1px 1px 2.5px black;
     
 }
+.titulosh1{
+    background-color:rgba(128, 128, 128, 0.289) ;
+}
 .produtos{
    margin: 20px auto;
    max-width: 400px;
 
 
-   border: 2px solid red;
+
     
 }
 .produtos img{
     width:50%;
     border-radius: 15%;
     float: left;
+    box-shadow: 7px 6px 7px black;
 }
 .text-product{
     
@@ -36,7 +40,7 @@
     text-align: left;
     margin-left: 55%;
     font-size:15px;
-    font-weight: 550;
+    font-weight: 750;
 }
 #icons1 , #icons2{
     font-size:22px;
