@@ -4,6 +4,7 @@
     width: 100%;
     display:flex;
     flex-wrap: wrap;
+    justify-content: center;
     
 
 
@@ -52,6 +53,34 @@ h1 {
 #icons2{
     color: red;
 }
+
+
+/* MAPA /////////////////////////////////////////////////////////////////////////// */
+
+#endereco {
+   
+    text-align: center;
+    margin:0;
+    background-color: #000000;
+    
+}
+#endereco h1{
+    color: white;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+#endereco h1 i{
+    margin-left: 7px;
+}
+.mapa {
+    width: 90%;
+    border-radius: 5px;
+    height: 450px;
+}
+
+/* contatos /////////////////////////////////////////////////////////////////////////// */
+
+
 
 @media screen and (min-width:)  {
     
