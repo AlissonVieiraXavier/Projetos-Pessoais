@@ -82,6 +82,26 @@ h1 {
 
 
 
-@media screen and (min-width:)  {
-    
+@media screen and (min-width:1200px)  {
+    #content{
+        border: 2px solid white;
+       /* background: rgba(128, 128, 128, 0.289);*/
+        width: 100%;
+        align-content: center;
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        
+    }
+    .produtos{
+        margin: 20px auto;
+       
+        width:22%;
+    }
+    .mapa {
+        width: 70%;
+        border-radius: 5px;
+        height: 450px;
+    }
 }
