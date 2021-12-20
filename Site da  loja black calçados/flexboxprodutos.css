@@ -1,0 +1,40 @@
+#images{
+   
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column-reverse;
+}
+
+#images div{
+
+margin: 35px;
+}
+
+
+#images img{
+    height:300px;;
+    width: 100%;
+    box-shadow: 7px 6px 7px black;
+}
+@media screen and (min-width:600px) {
+    #images{
+        
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content:space-around;
+    }
+    
+    #images div{
+    
+    margin: 35px;
+    }
+    
+    
+    #images img{
+        height:300px;;
+        width: 100%;
+    }
+    
+    
+}
