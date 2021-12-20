@@ -47,6 +47,7 @@ Header{
     display: inline-block;
     margin-right: 1em;
     margin-left: 1em;
+    transition: 500ms;
 
 }
 #menutopo li:hover{

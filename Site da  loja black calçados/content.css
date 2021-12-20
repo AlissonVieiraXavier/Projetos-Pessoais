@@ -43,15 +43,26 @@ h1 {
     font-size:15px;
     font-weight: 750;
 }
-#icons1 , #icons2{
-    font-size:22px;
-    margin-left:2px;
+.botaovermais-section{
+    margin-top: 50px;
+    padding: 20px;
 }
-#icons1{
-    color: #998502
+.botaovermais-section div{
+    text-align: center;
 }
-#icons2{
-    color: red;
+.botaovermais-section a{
+    text-decoration:none;
+    font-weight: 700;
+    font-size:20px;
+    padding:17px 50px;
+    border: 2px solid black;
+    border-radius:5%;
+    color:black;
+    transition:500ms;
+}
+.botaovermais-section a:hover{
+    color: white;
+    background:#fede07;
 }
 
 
