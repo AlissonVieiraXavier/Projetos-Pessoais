@@ -58,8 +58,9 @@ h1 {
     border: 2px solid black;
     border-radius:5px;
     color:black;
-    transition:500ms;
+    transition:300ms;
 }
+
 .botaovermais-section a:hover{
     color: #fede07;
     background:black;
@@ -90,16 +91,28 @@ h1 {
 }
 
 .botaowhats{
-    border: 2px solid red;
-    padding: 50px;
+    
+    padding: 10px;
+    background-color: black;
     
 }
 .botaowhats a{
-    color: rgb(10, 162, 146);
-    font-size:50px;
+    color: #25D366;
+    font-size:60px;
     position: fixed;
-    top: 90%;
-    right:5%;
+    top: 88%;
+    right:1%;
+    padding:20px;
+    transition: 500ms;
+    
+}
+.botaowhats a:hover, a:active{
+    color: #fede07;
+    font-size:60px;
+    position: fixed;
+    border:2px solid black;
+    border-radius: 50px;
+    background:black;
 }
 
 footer{
