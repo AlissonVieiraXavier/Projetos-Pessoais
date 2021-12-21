@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Noto Sans Display', sans-serif;
 }
@@ -63,6 +64,33 @@ Header{
 #menutopo a:active{
     color:black;
 }
+@media screen and (max-width:421px) {
+    
+    #headertop li{
+        display: block;
+        margin-right: 1em;
+        font-size:12px;
+        margin-top: 10px;
+    }
+    
+    
+    
+    
+    #menutopo nav{
+        text-align: center;
+        
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #menutopo li{
+        padding:15px;
+        margin-right: 0.5em;
+        margin-left: 0;
+        transition: 500ms;
+}
+#menutopo li a{font-size: 15px;}
 @media screen and (min-width:1000px) {
     
     
