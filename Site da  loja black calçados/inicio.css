@@ -52,17 +52,13 @@ Header{
     margin-right: 1em;
     margin-left: 1em;
     transition: 500ms;
-    padding:15px;
+    padding:20px;
     margin-right: 0.5em;
     margin-left: 0;
     transition: 500ms;
 
 }
-#menutopo li:nth-child(3){
-    margin-left:-10px;
-    
 
-}
 #menutopo li:hover{
     background-color: #fedc09;
     border-radius: 5px;
@@ -92,7 +88,7 @@ Header{
     
     }
 }
-#menutopo li a{font-size: 15px;}
+#menutopo li a{font-size: 18px;}
 @media screen and (min-width:1000px) {
     
     #menutopo nav{
