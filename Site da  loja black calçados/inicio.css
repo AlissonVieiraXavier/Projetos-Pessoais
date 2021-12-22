@@ -68,28 +68,53 @@ Header{
     text-decoration: none;
     font-weight: 900;
 }
-@media screen and (min-width:421px) {
+@media screen and (min-width:420px) {
     #headertop li{
         display: inline;
-        margin-right: 1em;
+        margin-right: 0em;
         font-size:15px;
     }
     #menutopo nav{
         text-align: center;
         width: 100%;
         height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
     #menutopo li{
-        padding:20px;
         display: inline-block;
         margin-right: 1em;
-        margin-left: 1em;
+        margin-left: 5em;
+        transition: 500ms;
+        padding:15px;
+        margin-right: 0.5em;
+        margin-left: 20px;
         transition: 500ms;
     
+    }
+    #menutopo li:nth-child(3){
+        
+        
+    
+    }
+    #menutopo li:hover{
+        background-color: #fedc09;
+        border-radius: 5px;
     }
 }
 #menutopo li a{font-size: 18px;}
 @media screen and (min-width:1000px) {
+    #headertop li{
+    
+        display: inline;
+        margin-right: 1em;
+        font-size:15px;
+        margin-top: 10px;
+    }
+    #headertop li i{
+        margin-right: 0.5em;}
+    
     
     #menutopo nav{
         text-align: center;
@@ -97,20 +122,21 @@ Header{
         height: auto;
         display: flex;
         flex-direction: column;
+        margin-top: -18px;
     }
     #menutopo li{
         display: inline-block;
         margin-right: 1em;
-        margin-left: 1em;
+        margin-left: 15em;
         transition: 500ms;
-        padding:15px;
+        padding:25px;
         margin-right: 0.5em;
         margin-left: 0;
         transition: 500ms;
     
     }
     #menutopo li:nth-child(3){
-        margin-left:-10px;
+        margin-left:-0px;
         
     
     }
