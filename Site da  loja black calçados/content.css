@@ -129,17 +129,13 @@ h1 {
     height: 100px;
     margin-top: 20px;
     padding: 30px 10px;
-    background-color: black;
-    opacity: 0.9;
+    background-color: rgb(0, 0, 0);
     color: white;
     transition: 500ms;
     
 }
-#contatos div:hover{
-    opacity: 1;
-    color: white;
-    
-}
+
+
 #contatos div:nth-child(1){
     width:95%;
     border:2px solid rgb(3, 0, 187);
@@ -151,10 +147,35 @@ h1 {
     color: white;
     
 }
+#contatos div h2:nth-child(1){
+    margin-bottom: 20px;
+}
 #contatos div h2{
-    font-size:20px;
+    font-size:18px;
+    font-weight:600;
     margin-bottom: 10px;;
 }
+#contatos div li{margin: 10px;}
+#contatos div li:nth-child(2){
+    margin-left: -85px;
+}
+
+#iconcontacts{
+
+    margin-right: 10px;
+}
+#iconinsta{
+    font-size:40px;
+    color: white;
+    transition: 200ms;
+
+}
+#iconinsta:hover{
+    font-size:50px;
+    color: #fede07;  
+
+}
+
 
 
 
