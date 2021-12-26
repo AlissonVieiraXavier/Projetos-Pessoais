@@ -124,7 +124,7 @@ h1 {
 }
 #contatos div{
     width:95%;
-    border:2px solid red;
+    
     border-radius: 15px;
     height: 100px;
     margin-top: 20px;
@@ -138,7 +138,7 @@ h1 {
 
 #contatos div:nth-child(1){
     width:95%;
-    border:2px solid rgb(3, 0, 187);
+    
     border-radius: 15px;
     height: 100px;
     margin-top: 20px;
@@ -163,6 +163,7 @@ h1 {
 #iconcontacts{
 
     margin-right: 10px;
+    font-size:20px;
 }
 #iconinsta{
     font-size:40px;
@@ -206,7 +207,7 @@ footer div{
     }
     #contatos div{
         width:90%;
-        border:2px solid red;
+        
         border-radius: 15px;
         height: 100px;
         margin: 20px 10px;
@@ -220,7 +221,7 @@ footer div{
     
     #contatos div:nth-child(1){
         width:90%;
-        border:2px solid rgb(3, 0, 187);
+       
         border-radius: 15px;
         height: 100px;
         margin-top: 20px;
@@ -245,7 +246,7 @@ footer div{
         }
         #contatos div{
             width:40%;
-            border:2px solid red;
+            
             border-radius: 15px;
             height: 100px;
             margin: 20px 10px;
@@ -259,7 +260,7 @@ footer div{
         
         #contatos div:nth-child(1){
             width:40%;
-            border:2px solid rgb(3, 0, 187);
+           
             border-radius: 15px;
             height: 100px;
             margin-top: 20px;
@@ -299,12 +300,13 @@ footer div{
         text-align:center;
         justify-content:space-between;
         padding: 10px;
-        background-image: url(img/try.png);
+        background-image: url(img/nikee.jpg);
         background-repeat: no-repeat;
+        background-position:center;
     }
     #contatos div{
         width:30%;
-        border:2px solid red;
+        
         border-radius: 15px;
         height: 100px;
         margin: 20px 10px;
@@ -318,7 +320,6 @@ footer div{
     
     #contatos div:nth-child(1){
         width:30%;
-        border:2px solid rgb(3, 0, 187);
         border-radius: 15px;
         height: 100px;
         margin-top: 20px;
