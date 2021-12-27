@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        div {
+            border: 2px solid red;
+            padding: 200px;
+            margin: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div-main" onclick="mudaConteudo()"></div>
+    <div id="area" data-content="html">
+        <h1>Alou!</h1>
+    </div>
+    <button onclick="mudaConteudo()">Muda Conteúdo</button>
+
+
+
+
+    <script>
+
+        function mudaConteudo() {
+            /* var elemento = document.querySelector("#div-main");
+             var contador = "";
+             for (var contador = 0; contador < 20; contador++) {
+                 document.write(contador)
+             }*/
+            var area = document.getElementById("area");
+
+            if (area.dataset.content == "html") {
+                area.innerText = area.innerHTML;
+                area.dataset.content = "text";
+            } else {
+                area.innerHTML = area.innerText;
+                area.dataset.content = "html";
+            }
+        }
+        }
+
+
+
+    </script>
+</body>
+
+</html>
