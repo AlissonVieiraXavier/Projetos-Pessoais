@@ -20,7 +20,9 @@
 </head>
 
 <body>
-    <div id="div-main" onclick="mudaConteudo()"></div>
+    <div id="divtest" data-content="xuxu beleza"> nhee</div>
+    <button onclick="test()"> testasapoha</button>
+
     <div id="area" data-content="html">
         <h1>Alou!</h1>
     </div>
@@ -32,11 +34,7 @@
     <script>
 
         function mudaConteudo() {
-            /* var elemento = document.querySelector("#div-main");
-             var contador = "";
-             for (var contador = 0; contador < 20; contador++) {
-                 document.write(contador)
-             }*/
+
             var area = document.getElementById("area");
 
             if (area.dataset.content == "html") {
@@ -47,7 +45,18 @@
                 area.dataset.content = "html";
             }
         }
+        function test() {
+            var elemento = document.getElementById("divtest");
+            if (elemento.dataset.content = "xuxu beleza") {
+                elemento.innerText = elemento.innerHTML;
+                elemento.dataset.content = "shit";
+            } else {
+                alert("hu")
+            }
+
+
         }
+
 
 
 
