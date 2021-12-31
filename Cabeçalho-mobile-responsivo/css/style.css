@@ -1,32 +1,29 @@
-header{
-    display:flex;
-    justify-content:space-between;
-    flex-direction:row;
-    border-bottom:1px solid red;
-    padding:10px;
-    
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
 }
-.logo-div{
-    border: 2px solid blue;
-    width: 30%;
-    text-align: center;
-    font-weight: bold;
-    font-size: 4em;
-}
-.menu-div{
-    border: 2px solid blue;
-    width: 70%;
-
-}
-.menu-div ul{
+.navbar{
+    background-color: darkcyan;
+    color: white;
     display: flex;
-    justify-content:space-around;
-    text-align: center;
-    border:2px solid red;
-    padding:22px
+    flex-direction: ;
+    justify-content: space-around;
+    align-items: center;
+    font-size:20px;
+}
+.nav-list{
+    list-style-type:none;
+
 
 }
-.menu-div li{
-    display:inline-block;
+.nav-list .list-item{
+   display: inline-block;
+   padding:20px 10px;
+
 }
-.menudesktop{ display:none;}
+.navbar a{
+    color: white;
+    text-decoration: none;
+
+}
