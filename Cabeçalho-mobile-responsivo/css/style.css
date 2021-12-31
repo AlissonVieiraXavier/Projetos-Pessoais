@@ -1,0 +1,32 @@
+header{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    border-bottom:1px solid red;
+    padding:10px;
+    
+}
+.logo-div{
+    border: 2px solid blue;
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4em;
+}
+.menu-div{
+    border: 2px solid blue;
+    width: 70%;
+
+}
+.menu-div ul{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    border:2px solid red;
+    padding:22px
+
+}
+.menu-div li{
+    display:inline-block;
+}
+.menudesktop{ display:none;}
