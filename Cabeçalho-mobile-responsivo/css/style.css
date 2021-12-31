@@ -7,7 +7,7 @@
     background-color: darkcyan;
     color: white;
     display: flex;
-    flex-direction: ;
+    flex-direction:row ;
     justify-content: space-around;
     align-items: center;
     font-size:20px;
@@ -60,7 +60,7 @@
         top:12px;
         padding:30px 1px;
         margin-top: -15px;}
-}
+
 
     .nav-list{
             list-style-type:none;
@@ -83,3 +83,23 @@
     
    
 }
+@media all and (min-width:481px){
+    .nav-list{
+        list-style-type:none;
+        
+        text-align: center;
+        padding-top: 8px;
+    
+    
+    }
+    .nav-list .list-item{
+       display: inline-block;
+       padding:20px;
+       
+       
+    
+    }
+    .list-item{
+        margin-top: -5px;
+    }
+} 
