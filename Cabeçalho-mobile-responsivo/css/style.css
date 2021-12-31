@@ -14,18 +14,26 @@
 }
 .nav-list{
     list-style-type:none;
+    
+    text-align: center;
+    padding-top: 30px;
 
 
 }
 .nav-list .list-item{
    display: inline-block;
-   padding:20px 10px;
+   padding:15px;
+   
+   
 
 }
 .navbar a{
     color: white;
     text-decoration: none;
 
+}
+.menu{
+    display: none;
 }
 .menu-line{
     width:20px;
@@ -34,4 +42,35 @@
     margin-bottom: 3px;
 }
 
-@media all and (max-width: 480px){}
+@media all and (max-width: 480px){
+    
+    .navbar{
+    flex-direction: column;
+    }
+    
+    .menu{
+        display: block;
+        position:absolute;
+        right: 20px;
+        top:20px;
+    }
+    .logo{
+        position:relative;
+        right:180px;
+        top:12px;}
+
+    .nav-list{
+            list-style-type:none;
+            width: 100%;
+            text-align: center;
+            padding-top: 30px;
+        
+        
+        }
+    .nav-list .list-item{
+            display: block;
+            padding:15px;
+            border-top: 1px solid white;
+    
+   
+}
