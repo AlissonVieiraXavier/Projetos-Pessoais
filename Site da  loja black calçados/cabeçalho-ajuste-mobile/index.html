@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="cabecalho-mobile.css">
     <title>Document</title>
 </head>
 
@@ -19,10 +21,13 @@
 
         </div>
         <div id="menutopo">
-            <div class="logodiv"><img src="Imagens/logo-modificada-removebg-preview.png" alt="Logo" class="logomenu">
+            <div><img class="logodiv" src="Imagens/logo-modificada-removebg-preview.png" alt="Logo" class="logomenu">
             </div>
             <div class="menudiv">
-                <nav>
+                <div class="menu-mobile">
+                    <i class="fas fa-bars" id="botao"></i>
+                </div>
+                <nav class="navbar">
 
                     <ul>
                         <li><a href="index.html">Inicio</a></li>
@@ -40,6 +45,17 @@
         </div>
 
     </header>
+
+    <script src="https://kit.fontawesome.com/f82c53e63a.js" crossorigin="anonymous"></script>
+    <script>
+        const botao = document.querySelector("#botao")
+        const menu = document.querySelector(".navbar")
+
+        botao.addEventListener("click", () => {
+            menu.classList.toggle("navbar-after-click")
+        })
+
+    </script>
 </body>
 
 </html>

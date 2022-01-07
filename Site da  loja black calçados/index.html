@@ -142,6 +142,16 @@
 
 
     <script src="https://kit.fontawesome.com/f82c53e63a.js" crossorigin="anonymous"></script>
+    <script>
+        const botao = document.querySelector("#botao")
+        const menu = document.querySelector(".navbar")
+
+        botao.addEventListener("click", () => {
+            menu.classList.toggle("navbar-after-click")
+        })
+
+    </script>
+
 </body>
 
 </html>
