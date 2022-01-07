@@ -40,70 +40,95 @@ Header{
     height: 280px;
     
 }
-#menutopo nav{
+.navbar{
+    margin-top: 10px;
+    display:block;
+    align-items:center;
     text-align: center;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-}
-#menutopo li{
+    width:100%;
+    display:none;
+    transition-property:all;
+    transition-duration: 500ms;
     
-    margin-right: 1em;
-    margin-left: 1em;
-    transition: 500ms;
-    padding:20px;
-    margin-right: 0.5em;
-    margin-left: 0;
-    transition: 500ms;
 
 }
-
-#menutopo li:hover{
-    background-color: #fedc09;
-    border-radius: 5px;
+.navbar-after-click{
+    display: block;
+    transition-property:all;
+    transition-duration: 500ms;
 }
-#menutopo a{
+.navbar li:nth-child(1){
+    border-left: 3px solid white;
+}
+.navbar li{
+    padding:25px 0px;
+    font-size: 25px;
+    width:100%;
+    position:center;
+    font-weight: 700;
+    height: 12px;
+
+
+    
+
+}
+.navbar li a{
+    color:white;
+    text-decoration:none;
+    width:100%;
+}
+
+
+.menu-mobile{
+    text-align: center;
+    font-size:1.5em;
+    padding:10px;
+}
+.menu-mobile i{
     color: white;
-    text-decoration: none;
-    font-weight: 900;
 }
-@media screen and (min-width:420px) {
+@media screen and (min-width:500px) {
+    .menu-mobile{
+        display:none;
+    }
     #headertop li{
         display: inline;
-        margin-right: 0em;
+       
         font-size:15px;
     }
-    #menutopo nav{
+    .navbar li:nth-child(1){
+        border-left: none;
+    }
+    .navbar{
+        margin-top: 5px; 
         text-align: center;
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        width:100%;
+        display:block;
+        padding:30px;
+        margin-left: -25px;
+        
+        
     }
     #menutopo li{
-        display: inline-block;
+        font-size: 20px;
         margin-right: 1em;
-        margin-left: 5em;
-        transition: 500ms;
-        padding:15px;
+        margin-left: 1em;
+        display:inline;
+        padding:20px;
         margin-right: 0.5em;
-        margin-left: 20px;
-        transition: 500ms;
+        margin-left: 0;
+       
     
     }
-    #menutopo li:nth-child(3){
-        
-        
     
-    }
     #menutopo li:hover{
         background-color: #fedc09;
         border-radius: 5px;
     }
-}
-#menutopo li a{font-size: 18px;}
+    #menutopo a{
+        color: white;
+        text-decoration: none;
+        font-weight: 900;}
 @media screen and (min-width:1000px) {
     #headertop li{
     
