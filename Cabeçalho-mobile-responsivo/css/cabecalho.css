@@ -41,6 +41,16 @@
     background-color: white;
     margin-bottom: 3px;
 }
+.botaomenu{
+    padding: 40px;
+    text-align: center;
+    border: 1px solid blue;
+
+}
+.botãomenu i{
+ color: white;
+ font-size:20px;
+}
 
 @media all and (max-width: 480px){
     
