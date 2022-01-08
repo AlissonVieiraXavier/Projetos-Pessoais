@@ -47,25 +47,26 @@ Header{
     text-align: center;
     width:100%;
     display:none;
-    transition-property:all;
-    transition-duration: 500ms;
+    transition-delay: 0.5s;
+    position: relative;
+    top:300;
     
 
 }
 .navbar-after-click{
     display: block;
-    transition-property:all;
-    transition-duration: 500ms;
+    top:0;
+
 }
 .navbar li:nth-child(1){
-    border-left: 3px solid white;
+    
 }
 .navbar li{
     padding:25px 0px;
-    font-size: 25px;
+    font-size: 20px;
     width:100%;
     position:center;
-    font-weight: 700;
+    font-weight: 600;
     height: 12px;
 
 
@@ -81,8 +82,8 @@ Header{
 
 .menu-mobile{
     text-align: center;
-    font-size:1.5em;
-    padding:10px;
+    font-size:1.7em;
+    padding:20px;
 }
 .menu-mobile i{
     color: white;
@@ -185,3 +186,4 @@ Header{
     .menudiv{
         margin-top:80px;
     }
+}
