@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content:space-between;
     align-items:center;
-    background: linear-gradient(#fca400,#ca8400);
+    background: linear-gradient(#324817,#5b6f3c);
     height: 5.5em;
     
 }
@@ -19,6 +19,7 @@ body {
 .header-top i{
     font-size: 25px;
     padding-right: 20px;
+    color:white;
 }
 .navbar{
     text-align: right;
@@ -29,7 +30,7 @@ body {
     position:absolute;
     right:0%;
     width: 200px;
-    background: linear-gradient(#ca8400,#ca8300e2);
+    background: linear-gradient(#5b6f3c,#5b6f3cad);
     right:-100%;
     transition: .25s;
     border-radius: 0px ;
@@ -40,7 +41,8 @@ body {
 }
 .navbar a{
     padding:25px;
-    font-weight: 700;
+    font-weight: 500;
+    color:white;
 }
 .navbar a i{
     padding-left: 10px;
@@ -85,7 +87,7 @@ body {
     justify-content: center;
 
     /* Take full size */
-    height: 75vh;
+    height: 95vh;
     width: 100%;
 
     /* Background */
@@ -94,6 +96,5 @@ body {
 .backmobile h1{
     position:relative;
     bottom:20px;
-    color:linear-gradient(#efa31a,#efa31a);
     font-size:3rem;
 }
