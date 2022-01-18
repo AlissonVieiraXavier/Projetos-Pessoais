@@ -51,7 +51,7 @@ body {
     display:flex;
 } 
 
-/*               START - MAIN              */
+/*               START - MAIN - Video            */
 .start-main h1{
     text-align: center;
     font-size:2em;
@@ -71,4 +71,19 @@ body {
     margin-top: 10px;
 
 }
+/*               START - MAIN - MOBILE            */
 
+.container {
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* Take full size */
+    height: 100vh;
+    width: 100%;
+
+    /* Background */
+    background: url("img/backmobile.jpeg") center center / cover no-repeat;
+}
