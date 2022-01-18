@@ -29,12 +29,13 @@ body {
     position:absolute;
     right:0%;
     width: 200px;
-    background: linear-gradient(#ca8400,#ca83009a);
+    background: linear-gradient(#ca8400,#ca8300e2);
     right:-100%;
     transition: .25s;
     border-radius: 0px ;
     border-bottom-left-radius: 10px;
     display: none;
+    overflow: cover;
     
 }
 .navbar a{
@@ -52,6 +53,7 @@ body {
 } 
 
 /*               START - MAIN - Video            */
+
 .start-main h1{
     text-align: center;
     font-size:2em;
@@ -60,8 +62,10 @@ body {
 }
 
 .video-desktop{
-    display:none;
+    display: none;
 }
+
+
 
 
 .container__video{
@@ -81,9 +85,15 @@ body {
     justify-content: center;
 
     /* Take full size */
-    height: 100vh;
+    height: 75vh;
     width: 100%;
 
     /* Background */
-    background: url("/img/backmobile.jpeg") center center / cover no-repeat;
+    background:url("/Tiger school/img/backmobile.jpeg") center center / cover no-repeat;
+}
+.backmobile h1{
+    position:relative;
+    bottom:20px;
+    color:linear-gradient(#efa31a,#efa31a);
+    font-size:3rem;
 }
