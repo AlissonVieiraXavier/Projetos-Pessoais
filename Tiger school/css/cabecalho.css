@@ -73,7 +73,7 @@ body {
 }
 /*               START - MAIN - MOBILE            */
 
-.container {
+.backmobile {
     /* Center the content */
     align-items: center;
     display: flex;
@@ -85,5 +85,5 @@ body {
     width: 100%;
 
     /* Background */
-    background: url("img/backmobile.jpeg") center center / cover no-repeat;
+    background: url("/img/backmobile.jpeg") center center / cover no-repeat;
 }
