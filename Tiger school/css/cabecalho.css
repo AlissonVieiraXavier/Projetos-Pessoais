@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content:space-between;
     align-items:center;
-    background: linear-gradient(#20300d,#20300db3);
+    background: linear-gradient(#5c703d,#5c703db9);
     height: 5.5em;
     
 }
@@ -30,7 +30,7 @@ body {
     position:absolute;
     right:0%;
     width: 200px;
-    background: linear-gradient(#5b6f3c,#5b6f3cad);
+    background:#5b6f3c;
     right:-100%;
     transition: .25s;
     border-radius: 0px ;
