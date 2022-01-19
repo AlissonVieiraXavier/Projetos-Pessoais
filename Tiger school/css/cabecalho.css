@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content:space-between;
     align-items:center;
-    background: linear-gradient(#324817,#5b6f3c);
+    background: linear-gradient(#20300d,#20300db3);
     height: 5.5em;
     
 }
@@ -98,7 +98,7 @@ body {
     bottom:20px;
     opacity: 0.8;
     color:white;
-    font-size:1.2rem;
+    font-size:1.0rem;
     top: 8em;
     text-align: left;
     left:-30px;
