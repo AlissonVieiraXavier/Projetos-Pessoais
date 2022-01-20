@@ -2,13 +2,14 @@
 
 body {
     font-family: 'Outfit', sans-serif;
+    background:#d3d5da;
 }
 
 .header-top{
     display: flex;
     justify-content:space-between;
     align-items:center;
-    background: white;
+    background: #d3d5da;
     height: 5.5em;
     
 }
@@ -30,7 +31,7 @@ body {
     position:absolute;
     right:0%;
     width: 200px;
-    background:white;
+    background:#d3d5da;
     right:-100%;
     transition: .25s;
     border-radius: 0px ;
@@ -104,12 +105,20 @@ body {
     left:-30px;
 }
 /*         CARDS         */
+.titlecards{
+    text-align: center;
+    margin:20px;
+    font-size:20px;
+    font-weight:bold;
+    
 
+}
 .cards{
 display: flex;
 flex-direction: column;
 align-items: center;
-margin: 20px 10px;}
+margin: 20px 10px;
+background:#d3d5da;}
 .cards article{
     margin:20px;
 }
@@ -120,7 +129,7 @@ margin: 20px 10px;}
 }
 .cards p{
     text-align: center;
-    font-size:1.2em;
+    font-size:1em;
     font-weight:600;
     margin:10px auto;
 }
