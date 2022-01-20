@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content:space-between;
     align-items:center;
-    background: linear-gradient(#5c703d,#5c703db9);
+    background: white;
     height: 5.5em;
     
 }
@@ -19,7 +19,7 @@ body {
 .header-top i{
     font-size: 25px;
     padding-right: 20px;
-    color:white;
+    color:rgb(0, 0, 0);
 }
 .navbar{
     text-align: right;
@@ -30,7 +30,7 @@ body {
     position:absolute;
     right:0%;
     width: 200px;
-    background:#5b6f3c;
+    background:white;
     right:-100%;
     transition: .25s;
     border-radius: 0px ;
