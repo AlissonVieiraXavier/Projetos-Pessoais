@@ -108,7 +108,8 @@ body {
 .titlecards{
     text-align: center;
     margin:20px;
-    font-size:20px;
+    text-align: center;
+    font-size:1.5em;
     font-weight:bold;
     
 
@@ -134,3 +135,27 @@ background:#d3d5da;}
     margin:10px auto;
 }
 
+/*          SOBRE            */ 
+#sobre{
+    display: flex;
+    flex-direction: column;
+} 
+.sobre-title{
+    text-align: center;
+    font-size:1.5em;
+    font-weight:bold;
+    margin:20px;
+} 
+.sobre-text{
+    padding:30px;
+    font-size:18px;
+}
+.element-div{width:100%;
+text-align: center;}
+.element-div-img{
+    height:350px;
+    width:70%;
+    align-self: center;
+    border-radius: 5%;
+   
+}
