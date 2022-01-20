@@ -122,9 +122,10 @@ margin: 20px 10px;
 background:#d3d5da;}
 .cards article{
     margin:20px;
+    text-align: center;
 }
 .cards img{
-    width: 100%;
+    width: 90%;
     height: 15em;
     border-radius:100%;
 }
