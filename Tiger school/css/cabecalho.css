@@ -120,5 +120,8 @@ margin: 20px 10px;}
 }
 .cards p{
     text-align: center;
+    font-size:1.2em;
+    font-weight:600;
+    margin:10px auto;
 }
 
