@@ -154,9 +154,21 @@ background:#d3d5da;}
 .element-div{width:100%;
 text-align: center;}
 .element-div-img{
-    height:15em;
+    height:17em;
     width:70%;
     align-self: center;
     border-radius: 40% 2%;
    
+}
+
+
+/*                    HORARIOS                */
+#horarios{
+    margin:20px 0px;
+    display: flex;
+    flex-direction:column;
+}
+#horarios table{
+    width:100%;
+    justify-content: space-between;
 }
