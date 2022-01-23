@@ -156,6 +156,7 @@ text-align: center;}
 .element-div-img{
     height:17em;
     width:70%;
+    max-width: 270px;
     align-self: center;
     border-radius: 40% 2%;
    
@@ -171,14 +172,27 @@ text-align: center;}
 #horarios table{
     width:100%;
     height:auto;
+    align-self: center;
+
     
 }
 #horarios thead{
     font-size: 1.1em;
     font-weight:bold;
-    margin-bottom:10px;
+    background-color:rgba(128, 128, 128, 0.446);
+
+
+    
 }
-#horarios tbody{
-margin-top: 20px;
+#horarios td{
+padding:10px 0px;
+color:rgb(2, 2, 2);
+
 }
+.trunica{
+    align-self: center;
+}
+
+#horarios tbody{border:1px solid black;}
+
 
