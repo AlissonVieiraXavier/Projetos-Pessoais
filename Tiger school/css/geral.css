@@ -170,5 +170,15 @@ text-align: center;}
 }
 #horarios table{
     width:100%;
-    justify-content: space-between;
+    height:auto;
+    
 }
+#horarios thead{
+    font-size: 1.1em;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+#horarios tbody{
+margin-top: 20px;
+}
+
