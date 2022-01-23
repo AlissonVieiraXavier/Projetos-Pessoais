@@ -154,9 +154,9 @@ background:#d3d5da;}
 .element-div{width:100%;
 text-align: center;}
 .element-div-img{
-    height:350px;
+    height:15em;
     width:70%;
     align-self: center;
-    border-radius: 5%;
+    border-radius: 40% 2%;
    
 }
