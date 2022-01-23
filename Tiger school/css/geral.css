@@ -166,33 +166,10 @@ text-align: center;}
 /*                    HORARIOS                */
 #horarios{
     margin:20px 0px;
-    display: flex;
-    flex-direction:column;
-}
-#horarios table{
-    width:100%;
-    height:auto;
-    align-self: center;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     
 }
-#horarios thead{
-    font-size: 1.1em;
-    font-weight:bold;
-    background-color:rgba(128, 128, 128, 0.446);
-
-
+#horarios{
     
 }
-#horarios td{
-padding:10px 0px;
-color:rgb(2, 2, 2);
-
-}
-.trunica{
-    align-self: center;
-}
-
-#horarios tbody{border:1px solid black;}
-
-
