@@ -8,10 +8,16 @@ body{
 }
 header{
     text-align: center;
+    font-size: 1.1em ;
+}
+header i{
+    color:#f0db4e;
+    
 }
 .registro{
-border: 1px solid red;
+border: 1px solid #f0db4e;
 display: flex;
+background:linear-gradient(#f0db4e,#f0da4eaf);
 flex-direction: column;
 padding:30px;
 margin: 4em 0em ;
@@ -37,6 +43,9 @@ border-radius: 50px 4px 50px 4px;
     font-family: 'Sedgwick Ave', cursive;
     border: 1px solid blue;
     width: 100%;
-    margin:0px 30px;
+    margin:0;
+    height: 500px;
+    background-image: url(back.jpg);
+    background-position: center;
     
 }
