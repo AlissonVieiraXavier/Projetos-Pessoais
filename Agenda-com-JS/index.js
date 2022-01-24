@@ -1,0 +1,10 @@
+const bottom = document.querySelector("#bottom");
+const tarefa = document.querySelector("#tarefa");
+const horario = document.querySelector("#tarefa-horario")
+const resultado = document.querySelector(".resultado")
+
+bottom.addEventListener("click", () => {
+
+
+
+})
