@@ -5,6 +5,8 @@ const resultado = document.querySelector(".resultado")
 
 bottom.addEventListener("click", () => {
 
-
+    let elemento = document.createElement("p");
+    elemento.textContent = `ás ${horario.value} tenho que ${tarefa.value}`
+    resultado.appendChild(elemento);
 
 })
