@@ -5,8 +5,17 @@ const resultado = document.querySelector(".resultado")
 
 bottom.addEventListener("click", () => {
 
-    let elemento = document.createElement("p");
-    elemento.textContent = `ás ${horario.value} tenho que ${tarefa.value}`
-    resultado.appendChild(elemento);
+    if (horario.value == "" || horario.value == "") {
+        alert("Digite algo antes de anexar a agenda")
+    } else {
+        let elemento = document.createElement("p");
+        elemento.textContent = `ás ${horario.value} tenho que ${tarefa.value}`
+        resultado.appendChild(elemento);
+        horario.value = "";
+        tarefa.value = "";
+    }
+
+
+
 
 })
