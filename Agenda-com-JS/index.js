@@ -9,7 +9,7 @@ bottom.addEventListener("click", () => {
         alert("Digite algo antes de anexar a agenda")
     } else {
         let elemento = document.createElement("p");
-        elemento.textContent = `ás ${horario.value} tenho que ${tarefa.value}`
+        elemento.textContent = `• ás ${horario.value} tenho que ${tarefa.value}`
         resultado.appendChild(elemento);
         horario.value = "";
         tarefa.value = "";

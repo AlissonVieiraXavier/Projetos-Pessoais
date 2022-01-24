@@ -44,8 +44,10 @@ border-radius: 50px 4px 50px 4px;
     border: 1px solid blue;
     width: 100%;
     margin:0;
-    height: 500px;
-    background-image: url(back.jpg);
-    background-position: center;
+    height: 100px;
+  
     
+}
+.resultado p{
+    padding-left:10px;
 }
