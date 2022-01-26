@@ -145,7 +145,7 @@ background:#d3d5da;}
     text-align: center;
     font-size:1.5em;
     font-weight:bold;
-    margin:20px;
+    margin:40px auto;
 } 
 .sobre-text{
     padding:30px;
@@ -165,10 +165,16 @@ text-align: center;}
 
 /*                    HORARIOS                */
 #horarios{
-    margin:50px 0px;
+    margin:0px 0px;
     display: grid;
     text-align: center;
+    background-image: url("../img/backendereco.jpeg");
+
     
+}
+#horarios h2{
+    color: white;
+    opacity: 0.9
 }
 #horarios table{
     width:93%;
@@ -176,23 +182,30 @@ text-align: center;}
     margin:1em;
     align-self: center;
     
+    
+    
 
     
 }
 #horarios thead{
     font-size: 1.1em;
     font-weight:bold;
-    background-color:rgba(128, 128, 128, 0.446);
-    border-top:1px solid black;
-    border-left:1px solid black;
-    border-right:1px solid black;
+    background-color:rgba(255, 255, 255, 0.07);
+    border-top:1px solid rgba(255, 255, 255, 0.7);
+    border-left:1px solid rgba(255, 255, 255, 0.7);
+    border-right:1px solid rgba(255, 255, 255, 0.7);
+    
 
 
     
 }
 #horarios td{
 padding:10px 0px;
-color:rgb(2, 2, 2);
+color:white;
+opacity: 0.9;
+border:rgba(255, 255, 255, 0.7)
+
+
 
 }
 .trunica{
@@ -202,15 +215,27 @@ color:rgb(2, 2, 2);
 #horarios tbody{border:1px solid black;}
 
 #endereco{
-margin-top: 100px;
+padding-top: 100px;
 text-align: center;
-background-image: url("img/backendereco.jpeg");
+background-image: url("../img/backendereco.jpeg");
+color:white;
 
+}
+#endereco h2{
+    color: white;
+    opacity: 0.9;
+}
+#endereco i{
+    padding-left:7px;
+    opacity: 0.9;
 }
 #endereco iframe{
     height:300px;
     border-radius: 10px;
     width: 90%;
     margin: 30px 0px;
+}
+.ajustarback{
+    
 }
 
