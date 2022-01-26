@@ -168,7 +168,7 @@ text-align: center;}
     margin:0px 0px;
     display: grid;
     text-align: center;
-    background-image: url("../img/backendereco.jpeg");
+    
 
     
 }
@@ -217,7 +217,7 @@ border:rgba(255, 255, 255, 0.7)
 #endereco{
 padding-top: 100px;
 text-align: center;
-background-image: url("../img/backendereco.jpeg");
+
 color:white;
 
 }
@@ -236,6 +236,7 @@ color:white;
     margin: 30px 0px;
 }
 .ajustarback{
-    
+    background-image: url("../img/backendereco.jpeg");
+    margin-top: 40px;
 }
 
