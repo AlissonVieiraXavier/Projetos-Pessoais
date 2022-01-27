@@ -240,3 +240,13 @@ color:white;
     margin-top: 40px;
 }
 
+/*                     FORM                     */
+.formcontact{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns:auto;
+   /* display: flex;
+    flex-direction: column;
+    align-items:center;*/
+}
+

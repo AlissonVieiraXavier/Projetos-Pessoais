@@ -120,22 +120,22 @@
     </div>
     <section id="contato">
 
-        <form action="https://api.staticforms.xyz/submit" method="POST">
+        <form class="formcontact" action="https://api.staticforms.xyz/submit" method="POST">
 
             <input type="hidden" name="accessKey" value="9d4e7773-cb2d-438b-9c63-43688070ab36">
 
             <div>
-                <label for="inputName">Nome Completo: </label>
+                <label for="inputName">Nome: </label>
                 <input type="text" id="inputName" name="name" required maxlength="50">
             </div>
-
-
-            <label for="inputEmail">Email: </label>
-            <input type="email" id="inputEmail" name="email" required maxlength="50">
-
-            <label for="textAreaMensagem">Mensagem</label>
-            <textarea name="message" id="textAreaMensagem" required maxlength="10000"></textarea>
-
+            <div>
+                <label for="inputEmail">Email: </label>
+                <input type="email" id="inputEmail" name="email" required maxlength="50">
+            </div>
+            <div>
+                <label for="textAreaMensagem">Mensagem</label>
+                <textarea name="message" id="textAreaMensagem" required maxlength="10000"></textarea>
+            </div>
             <button> Enviar mensagem</button>
 
 
