@@ -154,7 +154,7 @@ background:#d3d5da;}
 .element-div{width:100%;
 text-align: center;}
 .element-div-img{
-    height:17em;
+    height:19em;
     width:70%;
     max-width: 270px;
     align-self: center;
@@ -251,6 +251,9 @@ color:white;
 .formcontact div{
     margin: 20px;
     font-size: 1.3em;
+}
+.formcontact input{
+    
 }
 .mensform{
     position:relative;
