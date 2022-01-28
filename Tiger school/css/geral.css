@@ -280,5 +280,9 @@ justify-content:center;
 }
 
 /*                 FOOTER                */
-
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
 
