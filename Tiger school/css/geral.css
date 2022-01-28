@@ -252,8 +252,8 @@ color:white;
     margin: 20px;
     font-size: 1.3em;
 }
-.formcontact input{
-    
+.formcontact input,textarea{
+   border-radius: 5px; 
 }
 .mensform{
     position:relative;
@@ -262,9 +262,10 @@ color:white;
 
 .formcontact button{
     border: 1px solid black;
-    padding:1.1em;
+    padding:1.2em;
     font-weight: 700;
     border-radius: 10px;
+    margin: 15px;
 }
 
 
