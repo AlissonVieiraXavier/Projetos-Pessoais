@@ -267,5 +267,9 @@ color:white;
     border-radius: 10px;
     margin: 15px;
 }
+.icons-contato{display: flex;
+flex-direction: row;
+align-items:center;
+}
 
 
