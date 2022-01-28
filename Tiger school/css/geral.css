@@ -30,10 +30,10 @@ body {
     justify-content:space-evenly;
     position:absolute;
     right:0%;
-    width: 200px;
+    width: 250px;
     background:#d3d5da;
     right:-100%;
-    transition: .25s;
+    transition: .55s;
     border-radius: 0px ;
     border-bottom-left-radius: 10px;
     display: none;
@@ -51,7 +51,7 @@ body {
 }
 .navbar--ativo{
     right:0%;
-    transition: .25s;
+    transition: .55s;
     display:flex;
 } 
 
@@ -274,9 +274,11 @@ justify-content:center;
 }
 .iconsc i{
     padding: 1em;
-    font-size:2.7rem;
+    font-size:2.6rem;
     color:black;
     border-radius: 50px;
 }
+
+/*                 FOOTER                */
 
 
