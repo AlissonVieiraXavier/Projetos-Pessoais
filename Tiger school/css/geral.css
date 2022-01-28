@@ -316,13 +316,12 @@ justify-content:center;
         
     }
     .logotipo{
-        width: 28%;
-        max-width: 120px;
+        width: 30%;
+        max-width: 8em;
     }
     .header-top i{
         font-size: 25px;
-        padding-right: 20px;
-        color:rgb(0, 0, 0);
+        padding-right: 17px;
     }
     .navbar{
         text-align: right;
@@ -348,7 +347,7 @@ justify-content:center;
         color:black;
     }
     .navbar a i{
-        padding-left: 10px;
+        padding-left: 7px;
     
     }
 
