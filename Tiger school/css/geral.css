@@ -267,9 +267,16 @@ color:white;
     border-radius: 10px;
     margin: 15px;
 }
-.icons-contato{display: flex;
+.iconsc{display: flex;
 flex-direction: row;
-align-items:center;
+justify-content:center;
+
+}
+.iconsc i{
+    padding: 1em;
+    font-size:2.7rem;
+    color:black;
+    border-radius: 50px;
 }
 
 
