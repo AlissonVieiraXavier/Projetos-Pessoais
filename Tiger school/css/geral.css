@@ -349,7 +349,7 @@ justify-content:center;
         border-radius:20px;
     }
     .navbar a:hover{
-        background:linear-gradient(#f49f0d,#f49f0daa);
+        background:linear-gradient(#f49f0d,#f49f0d6d);
         transition: all 500ms;
         
         
@@ -382,10 +382,11 @@ display: none;
     border:2px solid white;
     padding:13px;
     border-radius:10px;
-    transition: 500ms;
+    transition: all 500ms;
+    font-weight: 600;
 }
 .button-start:hover{
-    transition: 500ms;
+    transition: all 500ms;
     background:linear-gradient(#f49f0d,#f49f0daa);
 }
 .video-desktop{
@@ -394,9 +395,11 @@ display: none;
 }
 .content-video{
     position:absolute;
-    left: 37%;
-    bottom: 55%;
+    left: 0%;
+    bottom: 56%;
     text-align: center;
+    width: 100%;
+    
     
 }
 
@@ -407,5 +410,34 @@ display: none;
     margin-top: 10px;
 
 }
+
+}
+
+
+
+@media screen and (min-width:900px) {
+
+ .content-video{
+        bottom: 52%;
+        left:10px;}
+
+
+}
+
+
+
+@media screen and (min-width:1000px){
+    .header-top{
+       justify-content:space-between;
+        margin:10px 2%;    
+    }
+    .navbar{
+        top:25px;
+        right:10px;
+    }
+    .content-video{
+    bottom: 48%;
+    left:10px;}
+    
 
 }
