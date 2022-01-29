@@ -345,6 +345,14 @@ justify-content:center;
         padding:25px;
         font-weight: 500;
         color:black;
+        transition: all 500ms;
+        border-radius:20px;
+    }
+    .navbar a:hover{
+        background:linear-gradient(#f49f0d,#f49f0daa);
+        transition: all 500ms;
+        
+        
     }
     .navbar a i{
         padding-left: 7px;
@@ -374,16 +382,20 @@ display: none;
     border:2px solid white;
     padding:13px;
     border-radius:10px;
+    transition: 500ms;
 }
-
+.button-start:hover{
+    transition: 500ms;
+    background:linear-gradient(#f49f0d,#f49f0daa);
+}
 .video-desktop{
     display: block;
     opacity: 0.8;
 }
 .content-video{
     position:absolute;
-    left: 35%;
-    bottom: 60%;
+    left: 37%;
+    bottom: 55%;
     text-align: center;
     
 }
