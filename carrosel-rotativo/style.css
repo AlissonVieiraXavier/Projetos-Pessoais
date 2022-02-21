@@ -6,16 +6,20 @@ body{
 }
 .navbar{
     height: 5em;
-    background-color: white;
+    background-color: rgb(92, 19, 19);
+    width: 100%;
+    margin: 0;
 }
 
 /*Util*/
 
 #slider{
     width: 100%;
+    height: 25vw;
    
 }
 #slider img{
     width: 100%;
     height:170vw;
+    position: absolute;
 }
