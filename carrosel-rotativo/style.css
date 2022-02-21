@@ -25,7 +25,7 @@ body{
     position: absolute;
     object-fit: cover;
     opacity: 0;
-    transition:500ms;
+    transition: opacity 500ms;
 }
 #slider .selected{
     opacity: 1;
