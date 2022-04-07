@@ -112,28 +112,21 @@ html, body {
   -ms-transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-.big-rectangle {
-  position: absolute;
+.image-perfil {
   right: auto;
-  top: 50%;
-  display:none;
-  left: 50%;
-  margin: 0 auto;
-  width: 30%;
-  height: 47%;
-  background: linear-gradient(#196fc2,#1970c2b1);
+  position: relative;
+  margin: 3em auto 0 auto;
+  display:flex;
+  align-items: center;
+  justify-content: center;
   border: 0;
-  transform: translate(-50%, -50%) rotate(45deg);
-  -webkit-transform: translate(-50%, -50%) rotate(45deg);
-  -moz-transform: translate(-50%, -50%) rotate(45deg);
-  -o-transform: translate(-50%, -50%) rotate(45deg);
-  -ms-transform: translate(-50%, -50%) rotate(45deg);
-  -webkit-box-shadow: 10px 10px 0px 0px #dddddd;
-  -o-box-shadow: 10px 10px 0px 0px #dddddd;
-  -moz-box-shadow: 10px 10px 0px 0px #dddddd;
-  box-shadow: 10px 10px 0px 0px #dddddd;
-}
 
+}
+.image-perfil img{
+  width: 240px;
+  height: 240px;
+  border-radius: 100%;
+}
 .medium-rectangle {
   width: 75px;
   height: 75px;
@@ -387,6 +380,7 @@ html, body {
     line-height: 60px;
     border: 0;
   }
+
   .site-navigation .navbar-toggle .icon-bar {
     position: relative;
     background-color: #fff;
