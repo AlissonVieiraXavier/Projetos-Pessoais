@@ -77,6 +77,9 @@ html, body {
 /* 
  * Rectangle 
  */
+ .rectangle{
+   margin-top:0px;
+ }
 .rectangle,
 .big-rectangle {
   display: inline-block;
@@ -113,11 +116,12 @@ html, body {
   position: absolute;
   right: auto;
   top: 50%;
+  display:none;
   left: 50%;
   margin: 0 auto;
-  width: 230px;
-  height: 230px;
-  background-color: #196fc2;
+  width: 30%;
+  height: 47%;
+  background: linear-gradient(#196fc2,#1970c2b1);
   border: 0;
   transform: translate(-50%, -50%) rotate(45deg);
   -webkit-transform: translate(-50%, -50%) rotate(45deg);
@@ -756,10 +760,7 @@ html, body {
 
 @media only screen and (max-width: 991px) {
   /* Section: Hello */
-  .big-rectangle {
-    height: 170px;
-    width: 170px;
-  }
+
   .main-service {
     padding: 20px 0;
   }
@@ -982,6 +983,7 @@ html, body {
   .section-counters .row p {
     margin-top: 15px;
   }
+
 }
 
 @media only screen and (max-width: 479px) {
@@ -1770,7 +1772,7 @@ html, body {
     content: none;
   }
   .timeline > li .timeline-rectangle {
-    disply: none;
+    display: none;
   }
 }
 
@@ -2036,7 +2038,7 @@ html, body {
 
 /* Sections background: Quote */
 .section-quote {
-  background: url(../img/quote.jpg) center no-repeat fixed;
+  background: url(../img/back3.jpg) center no-repeat  fixed;
 }
 
 .section-quote p {
