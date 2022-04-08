@@ -357,9 +357,9 @@ html, body {
 }
 .whatsflut{
   position:fixed;
-  width:100px;
-  height:100px;
-  bottom:20px;
+  width:90px;
+  height:90px;
+  bottom:10px;
   right:10px;
   background-color:#25d366;
   color:#FFF;border-radius:50px;
@@ -371,7 +371,7 @@ html, body {
 .whatsappicon{
   color:white;
   font-size: 60px;
-  padding-top: 5px;
+  padding-top: 0px;
   
   
 }
