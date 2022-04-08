@@ -132,9 +132,14 @@ html, body {
   height: 75px;
 }
 
+
+.projectsh2{
+  text-align: center;
+}
 /*
  * Slick Slider
  */
+
 .slick-slider {
   position: relative;
   -khtml-user-select: none;
