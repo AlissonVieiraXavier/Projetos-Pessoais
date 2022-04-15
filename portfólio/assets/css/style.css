@@ -2072,12 +2072,13 @@ html, body {
 }
 
 .section-quote p span {
-  color: #196fc2;
+  color: #2491f6;
+  font-weight:700;
 }
 
 /* Sections background: Me */
 .section-me {
-  background: url(../img/back3.jpg) center no-repeat fixed;
+  background: url(../img/backt.jpg) center no-repeat fixed;
 }
 
 .section-me h2 {
