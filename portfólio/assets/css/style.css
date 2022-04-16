@@ -134,12 +134,16 @@ html, body {
 }
 
 
-.projectsh2{
-  text-align: center;
+.ajuste-projectsh2{
+text-align: center;
 }
-.projectsh2 p{
-  text-align: center;
-
+.ajuste-projectsh2 h2{
+  font-family: "Varela", sans-serif;
+    margin: 30px auto auto auto;
+    font-size: 25px;
+    color: #196fc2;
+    text-align: center;
+    text-transform: uppercase;
 }
 /*
  * Slick Slider
