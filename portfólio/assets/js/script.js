@@ -95,11 +95,13 @@ $(function () {
 
     $('.clients-carousel').slick({
         arrows: false,
+        autoplay:true,
         slidesToShow: 5,
+        speed:300,
         responsive: [ {
             breakpoint : 992,
             settings: {
-                slidesToShow: 3
+                slidesToShow: 4
             }
         },
         {
@@ -111,7 +113,8 @@ $(function () {
     });
     $('.clients-carousel2').slick({
         arrows: false,
-        slidesToShow: 4,
+        slidesToShow: 3,
+        autoplay:true,
         responsive: [ {
             breakpoint : 992,
             settings: {

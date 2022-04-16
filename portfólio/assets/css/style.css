@@ -2177,8 +2177,8 @@ text-align: center;
   line-height: 85px;
   text-align: center;
   margin: 0 15px;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
 }
 
 .client:hover {
@@ -2250,6 +2250,14 @@ textarea.form-control {
   textarea.form-control {
     margin-top: 15px;
   }
+}
+.client {
+  height: 85px;
+  line-height: 85px;
+  text-align: center;
+  margin: 0 15px;
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
 }
 
 /* Section: Social Networks */
