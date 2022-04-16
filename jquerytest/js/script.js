@@ -7,6 +7,6 @@ $(".button").on("click",function(){
 //CARROSEL
 $('.multiple-items').slick({
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 3
   });
