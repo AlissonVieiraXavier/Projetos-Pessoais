@@ -3,6 +3,7 @@ body{
 }
 #cabecalho{
     background: radial-gradient(black,rgba(0, 0, 0, 0.77));
+    margin: 0;
     
 }
 .navbar{
