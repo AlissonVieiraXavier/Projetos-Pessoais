@@ -1,9 +1,9 @@
-function w3_open() {
-    document.getElementById("mySidebar").style.width = "100%";
-    document.getElementById("mySidebar").style.display = "block";
-  }
-  
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-}
+/* responsive sidebar - show sidebar */
+$("#icon-bars-main-touch").on("click",()=>{
+  setTimeout(() =>  { 
+    $(".sidebar").toggleClass("sidebar-active");},400);
+ 
+} )
+
+
 //$("#sidebar").css("background-color", "blue");
