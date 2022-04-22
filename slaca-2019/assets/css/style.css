@@ -16,7 +16,9 @@ width:auto;
     box-shadow: 0 4px 2px -1px rgba(86, 86, 86, 0.204);
     border-radius: 5px;
     display:block;
-
+}
+#icon-bars-main-touch{
+    cursor: pointer;
 }
 .sidebar{
     display:none;
@@ -137,7 +139,8 @@ padding: 0;
 }
 .header-select-idiom select{margin:0;
 border:none;
-background-color: transparent;}
+background-color: transparent;
+cursor:pointer;}
 
 
 
