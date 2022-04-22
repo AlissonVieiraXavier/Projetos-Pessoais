@@ -96,9 +96,12 @@ padding: 0;
 .header{
     display: flex;
     background-color:#FDF1EB;
+    margin-left:0;
+    flex-direction:column;
 }
 .header-text{
     color: #725C5C;
+    padding: 5px;
 }
 .header-text h2{
     font-family: Roboto;
@@ -117,6 +120,25 @@ padding: 0;
     letter-spacing: 0em;
     text-align: left;   
 }
+.header-user{
+    display: flex;
+    margin-left: 0;
+}
+.header-select-idiom{
+    font-family: Quicksand,roboto;
+    font-size: 15px;
+    display: flex;
+    border:none;
+    border-radius: 5px;
+}
+.header-select-idiom-img{
+    position:relative;
+    top:0px;
+}
+.header-select-idiom select{margin:0;
+border:none;
+background-color: transparent;}
+
 
 
 
@@ -138,13 +160,39 @@ padding: 0;
         display:flex;
         margin-left:0%;
     }
-    .header-text{
-        margin-left: 0px;
-    }
-}
-@media screen and (min-width:765px) {
     .header{
-        padding-left: 22px;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+    .header-text{
+        padding-left: 80px;
         margin-left: 0px;
     }
+    .header-user{
+        display: flex;
+        margin-left:100px;
+    }
+ 
+}
+@media screen and (min-width:1115px) {
+    .header{
+        margin-left:-5px;
+    }
+    .header-text{
+        padding-left: 45px;
+        margin-left: -0px;
+    }
+    #column-sidebar{
+        width:20%;
+        }
+    #column-content{
+        width:100%;
+        }
+    .header-select-idiom{ height: 65px;
+    padding: 10px 0px;}
+    .header-select-idiom select{margin:20px auto;}
+    .header-select-idiom-img{
+            position:relative;
+            top:20px;
+        }
 }

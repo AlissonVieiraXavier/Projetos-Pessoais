@@ -1,3 +1,6 @@
+$('.before-img').after('<img src="./assets/img/litleWorld.svg" />');
+
+
 /* responsive sidebar - show sidebar */
 $("#icon-bars-main-touch").on("click",()=>{
   setTimeout(() =>  { 
