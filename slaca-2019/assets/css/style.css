@@ -1,3 +1,13 @@
+body{
+    display:flex;
+    flex-direction:column;
+}
+#column-sidebar{
+width:auto;
+}
+#column-content{
+width:auto;
+}
 .icon-bars{
     padding: 20px;
     font-size: 30px;
@@ -8,12 +18,10 @@
     display:block;
 
 }
-
-
 .sidebar{
     display:none;
     flex-direction: column;
-    width: 220px;
+    width: auto;
     position:absolute;
     height: 200%;
     background: #FFFFFF;
@@ -42,7 +50,7 @@
 }
 .sidebar-content-1 h1{
 margin-top: 15px;
-font-family: Roboto;
+font-family: Roboto,arial;
 font-size: 30px;
 font-weight: 700;
 color:#FFFFFF;
@@ -80,16 +88,63 @@ padding: 0;
     top: 7px;
     background:transparent;
     width:100%;
-    overflow:cover;
-    
+    overflow:cover;    
 }  
+/*  END OF SIDEBAR */
+
+
+.header{
+    display: flex;
+    background-color:#FDF1EB;
+}
+.header-text{
+    color: #725C5C;
+}
+.header-text h2{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.header-text p{
+    font-family: Roboto,arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;   
+}
+
+
 
 @media screen and (min-width:765px) {
+    body{
+        display:flex;
+        flex-direction:row;
+    }
+    #column-sidebar{
+        width:20%;
+        }
+        #column-content{
+        width:80%;
+        }
     .icon-bars{
         display:none;
     }
     .sidebar{
         display:flex;
         margin-left:0%;
+    }
+    .header-text{
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width:765px) {
+    .header{
+        padding-left: 22px;
+        margin-left: 0px;
     }
 }
