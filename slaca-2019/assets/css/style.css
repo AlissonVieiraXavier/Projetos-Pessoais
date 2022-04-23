@@ -104,7 +104,6 @@ padding: 0;
 .header-text{
     color: #725C5C;
     padding: 5px;
-    border: 1px solid rebeccapurple;
 }
 .header-text h2{
     font-family: Roboto;
@@ -124,13 +123,11 @@ padding: 0;
     text-align: left;   
 }
 .header-user{
-    border: 1px solid red;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
 .header-user-count-texts{
-    border: 1px solid blue;
     display: flex;
     padding: 20px 0px;
 }
@@ -140,7 +137,6 @@ padding: 0;
     margin-top:-4px;
 }
 .header-select-idiom{
-border:1px solid yellowgreen;
 width: 100px;
 display: flex;
 padding: 20px 0px;
@@ -151,11 +147,13 @@ padding: 20px 0px;
 }
 .header-select-idiom-img i{
     position:relative;
-    top:10px;
+    top:20px;
  }
 
+/* END OF HEADER */
 
-@media screen and (min-width:765px) {
+
+@media screen and (min-width:789px) {
     body{
         display:flex;
         flex-direction:row;
@@ -191,10 +189,11 @@ padding: 20px 0px;
     .header-user-count-texts{
         margin-top:20px;
     }
-    .header-select-idiom-img i{
+     .header-select-idiom-img{
         position:relative;
-        top:20px;
-     }
+        top:5px;
+        height:10px;
+    }
 
  
 }
@@ -221,7 +220,7 @@ padding: 20px 0px;
     padding: 10px 0px;}
     .header-select-idiom-img{
             position:relative;
-            top:20px;
+            top:5px;
             height:10px;
         }
     .header-user-count-texts{
