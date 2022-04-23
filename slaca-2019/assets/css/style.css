@@ -152,6 +152,25 @@ padding: 20px 0px;
 
 /* END OF HEADER */
 
+#section-video{
+    border:2px solid red;
+}
+.section-video-title{
+margin:1.5px auto;
+width: 100%;
+left: 0px;
+top: 0px;
+font-size:20px;
+font-weight: 900;
+color: #ED7839;
+}
+.section-video-video{
+width: 100%;
+}
+.section-video-video img{
+    width: 100%;
+    }
+
 
 @media screen and (min-width:789px) {
     body{
