@@ -163,6 +163,7 @@ html,body{
 .reg a {
     margin-right: 5px;
     margin-left: 5px;
+	display:none;
 }
 
 /* social-icon */
@@ -212,33 +213,38 @@ html,body{
 .wrapper-sticky{
 	position: relative;
 	display: inline-block;
-	background: rgba(115,112,216,1);
+	background: #e0e0dd;
+	color: black;
 }
 
 /* sticky */
 .sticky{
-	background: rgba(115,112,216,1);
+	background: #e0e0dd;
 	padding: 10px 0px 0px;
 	height:80px;
-	color: #fff;
+	color: black;
 }
 
 .sticky  .navbar-brand{
 	margin-top:20px;
 }
+.logo{width: 10%;
+}
 .sticky  .navbar-default .navbar-nav li a,
 .sticky  .navbar-default .navbar-nav li a:active,
 .sticky  .navbar-default .navbar-nav li a:focus,
 .sticky  .navbar-default .navbar-nav li a:hover{
-	color: #fff;
+	color: black;
+	background-color: transparent;
 	margin: 0px 0px;
 }
 .sticky .navbar-default .navbar-toggle ,
 .sticky .navbar-default .navbar-toggle:focus,
 .sticky .navbar-default .navbar-toggle:hover {
-    background-color: transparent;
+    background-color: white;
     border: 1px solid #000;
     margin-top: 15px;
+	
 }/* sticky */
 
 /* wrapper-sticky */
@@ -247,6 +253,7 @@ html,body{
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
+	color: #fff;
 }
 .navbar-default .navbar-nav li a{
 	font-size: 16px;
@@ -290,7 +297,7 @@ html,body{
 .navbar-default .navbar-toggle:focus,
  .navbar-default .navbar-toggle:hover {
     background-color: transparent;
-    border: 1px solid #000;
+    border: 1px solid rgb(255, 255, 255);
     margin-top: 25px;
 }
 .navbar-default .navbar-toggle .icon-bar {
@@ -370,8 +377,8 @@ html,body{
 	display: inline-block;
     background: #f5f5fb;
     padding: 17px 50px;
-    color: #5549af;
-    border: 1px solid #f5f5fb;
+    color: black;
+    border: 1px solid black;
 	font-size:16px;
 	font-weight:600;
 	text-transform: uppercase;
@@ -394,17 +401,17 @@ html,body{
 	 border: 1px solid #fff;
 }
 .single-slide-item.slide-1 {
-	background-image:url(../../assets/images/banner/banner1.jpg);
+	background-image:url(../../assets/images/banner/pisopolido.jpg);
 	position:relative;
 	z-index:1;
 }
 .single-slide-item.slide-2 {
-	background-image:url(../../assets/images/banner/banner2.jpg);
+	background-image:url(../../assets/images/banner/pisopolido.jpg);
 	position:relative;
 	z-index:1;
 }
 .single-slide-item.slide-1:before,.single-slide-item.slide-2:before{
-	background:rgba(115,112,215,.6);
+	background:rgba(0, 0, 0, 0.34);
 	position:absolute;
 	left:0;
 	top:0;
