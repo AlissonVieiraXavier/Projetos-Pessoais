@@ -104,6 +104,7 @@ padding: 0;
 .header-text{
     color: #725C5C;
     padding: 5px;
+    border: 1px solid rebeccapurple;
 }
 .header-text h2{
     font-family: Roboto;
@@ -123,26 +124,35 @@ padding: 0;
     text-align: left;   
 }
 .header-user{
+    border: 1px solid red;
+    width: 100%;
     display: flex;
-    margin-left: 0;
+    justify-content: space-evenly;
+}
+.header-user-count-texts{
+    border: 1px solid blue;
+    display: flex;
+    padding: 20px 0px;
+}
+.header-user-count-texts p{text-align: right;}
+.header-user-count-texts img{
+    width: 40px;
+    margin-top:-4px;
 }
 .header-select-idiom{
-    font-family: Quicksand,roboto;
-    font-size: 15px;
-    display: flex;
+border:1px solid yellowgreen;
+width: 100px;
+display: flex;
+padding: 20px 0px;
+}
+.header-select-idiom select {
     border:none;
-    border-radius: 5px;
+    background-color: transparent;
 }
-.header-select-idiom-img{
+.header-select-idiom-img i{
     position:relative;
-    top:0px;
-}
-.header-select-idiom select{margin:0;
-border:none;
-background-color: transparent;
-cursor:pointer;}
-
-
+    top:10px;
+ }
 
 
 @media screen and (min-width:765px) {
@@ -166,24 +176,40 @@ cursor:pointer;}
     .header{
         flex-direction:row;
         flex-wrap: wrap;
+        justify-content:none;
     }
     .header-text{
         padding-left: 80px;
         margin-left: 0px;
+        width:40%;
     }
     .header-user{
         display: flex;
         margin-left:100px;
+        width:30%;
     }
+    .header-user-count-texts{
+        margin-top:20px;
+    }
+    .header-select-idiom-img i{
+        position:relative;
+        top:20px;
+     }
+
  
 }
 @media screen and (min-width:1115px) {
     .header{
         margin-left:-5px;
+        flex-direction: row;
     }
     .header-text{
         padding-left: 45px;
         margin-left: -0px;
+        width:50%;
+    }
+    .header-user{
+        width:35%;
     }
     #column-sidebar{
         width:20%;
@@ -193,9 +219,12 @@ cursor:pointer;}
         }
     .header-select-idiom{ height: 65px;
     padding: 10px 0px;}
-    .header-select-idiom select{margin:20px auto;}
     .header-select-idiom-img{
             position:relative;
             top:20px;
+            height:10px;
         }
+    .header-user-count-texts{
+        margin-top:5px;
+    }
 }
