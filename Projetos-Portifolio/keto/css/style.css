@@ -302,8 +302,11 @@ button {
 
 .banner_main {
      position: relative;
+     text-align: center;
 }
-
+.banner_main img{
+     border-radius: 10px
+}
 .banner .carousel-indicators li {
      width: 20px;
      height: 20px;

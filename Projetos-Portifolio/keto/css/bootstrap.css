@@ -5768,6 +5768,9 @@ button.close {
   -webkit-perspective: 1000px;
   perspective: 1000px;
 }
+.carousel-item img{
+  width: 100%;
+}
 
 @media screen and (prefers-reduced-motion: reduce) {
   .carousel-item {
