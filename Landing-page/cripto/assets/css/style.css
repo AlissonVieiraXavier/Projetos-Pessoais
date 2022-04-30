@@ -58,9 +58,11 @@ font-size:2em;
     text-shadow: 0px 4px 5px #ccad00ba;
     letter-spacing:2px;
 }
-.header h2{
+.maintitle{
     margin-top: 50px;
     font-weight: 900;
+    text-align: center;
+    font-size:30px;
 }
 .section-top{
     display: flex;
@@ -78,16 +80,25 @@ font-size:2em;
     border-radius:20px;
     background: linear-gradient(#ccac00,#ccad00d6,#ccad00b7,#ccad006f);
     box-shadow: 5px 2px 15px 5px #ccad006f;
+
 }
 .section-top form fieldset{
     display: flex;
     flex-direction: column;
 }
+.section-top form legend{
+    font-size:20px;
+    font-weight: 500; 
+}
 .label-form{
-    margin-top:20px;
+    margin:20px auto 5px auto;
+    font-size:20px;
+    font-weight: 500;
 }
 .button-submit{
     margin-top:20px;
+    font-size:20px;
+    font-weight: 500;
 }
 .section-top input{
     padding: 10px;
@@ -110,7 +121,22 @@ font-size:2em;
     'wght' 700,
     'GRAD' 0,
     'opsz' 48
-  }
+}
+
+.section-content-texts{
+    background-image: url(../img/money.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center left;
+    background-size: cover;
+}
+.section-content-texts p{
+    text-align: left;
+    margin-right: 20%;
+    margin-top:20px;
+    font-size:25px;
+}
+
 
 
 @media screen and (min-width:765px) {
@@ -127,6 +153,10 @@ font-size:2em;
     }
     .section-top form{
         padding:30px;
-        position:relative;
+        max-width: 350px;
+    }
+    .section-content-texts p{
+        margin-right: 50%;
+
     }
 }
