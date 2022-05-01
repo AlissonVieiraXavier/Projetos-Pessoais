@@ -1,0 +1,23 @@
+body{
+    animation: mudaFundo 10s infinite;
+}
+@keyframes mudaFundo{
+    0%{
+        background-color:red;
+    }
+    20%{
+        background-color:blue;
+    }
+    40%{
+        background-color:yellow;
+    }
+    60%{
+        background-color:purple;
+    }
+    80%{
+        background-color:yellowgreen;
+    }
+    100%{
+        background-color:gray;
+    }
+}
