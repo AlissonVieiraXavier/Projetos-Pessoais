@@ -1,7 +1,7 @@
 /*         NAVBAR - START         */
 .navigation {
     height: 4em;
-    background: black;
+    background: linear-gradient(#000000,#000000c6);
 
 }
 .brand {
@@ -56,7 +56,7 @@ nav ul li a,nav ul li a:visited {
     padding: 5px 20px;
     line-height: 55px;
     color: #fff;
-    background:#000000;
+    background:#313131;
     text-decoration: none;
 }
 nav ul li a{
