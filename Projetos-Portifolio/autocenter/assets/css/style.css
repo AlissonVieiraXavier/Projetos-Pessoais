@@ -159,7 +159,7 @@ nav ul li ul li a {
     min-width: 5em;
     max-width:15em;
     transition: 500ms;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .apresentacao img:hover{
     opacity: 0;
@@ -167,9 +167,9 @@ nav ul li ul li a {
 .apresentacao h1{
      font-weight: 900;
      color:white;
-     font-size: 2.5em;
+     font-size: 1em;
      text-shadow: #00000050 2px 2px 1px;
-    margin: 20px;}
+    margin: 0px;}
 
 @keyframes backgrounSlide {
 0%{
@@ -223,24 +223,32 @@ nav ul li ul li a {
 /*         APRESENTAÇÃO - END         */
 /*         GARANTIAS - START         */
 #garantias{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.garantias-box{
+background: white;
 display: flex;
 flex-direction: column;
-flex-wrap: wrap;
-justify-content: space-around;
 align-items: center;
-margin: 30px;}
-.garantias-box{
-border:1px solid white;
-color: black;
-width: 100%;
 text-align: center;
-background-color: white;
+margin: 10px auto;
+width: 100%;
+height: 200px;
 border-radius: 50px;
-padding: 100px auto;
-margin: 20px auto;
+padding: 20px 10px;
 }
 .garantias-box img{
     width: 80px;
+    margin: 10px auto
+}
+.garantias-box h3{
+    font-weight: 900;
+    font-size:20px;
+    margin-top:30px;
 }
 /*         GARANTIAS - END         */
 
@@ -283,19 +291,27 @@ margin: 20px auto;
    }
    /*         NAVBAR - END         */
    .apresentacao img{
-    margin-top: 30px;
+    margin-top: 0px;
+    width: 15em;
     }
     .apresentacao h1{
-    margin: 0px;}
+    margin: 0px;
+    font-size:2em;}
     #garantias{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;}
+}
     }
     .garantias-box{
-        width: 33%;
-        
-    }
+        background: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 10px auto;
+        width: 100%;
+        height: 200px;
+        border-radius: 50px;
+        padding: 20px 10px;
+        }
     
     
 }
