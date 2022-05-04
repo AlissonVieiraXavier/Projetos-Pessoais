@@ -164,12 +164,24 @@ nav ul li ul li a {
 .apresentacao img:hover{
     opacity: 0;
 }
-.apresentacao h1{
+.h1-main{
      font-weight: 900;
      color:white;
      font-size: 1em;
      text-shadow: #00000050 2px 2px 1px;
-    margin: 0px;}
+     margin: 0px;
+     transition: 500ms;}
+.h1-main:hover{
+    opacity: 0;
+}
+.h1-main2{ text-align: center;
+font-size: 25px;
+padding-top: 50px;
+padding-bottom: 20px;}
+.h1-main2:hover{
+    opacity: 1;
+}
+/*         APRESENTAÇÃO - END         */
 
 @keyframes backgrounSlide {
 0%{
@@ -204,7 +216,7 @@ nav ul li ul li a {
 }
 }
 .button{
-    padding:20px;
+    padding:15px 20px;
     border:none;
     border-radius:25px;
     margin:30px auto;
@@ -223,23 +235,20 @@ nav ul li ul li a {
 /*         APRESENTAÇÃO - END         */
 /*         GARANTIAS - START         */
 #garantias{
-    margin: 20px auto;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
 }
 
 .garantias-box{
 background: white;
-display: flex;
-flex-direction: column;
-align-items: center;
 text-align: center;
-margin: 10px auto;
 width: 100%;
-height: 200px;
-border-radius: 50px;
-padding: 20px 10px;
+padding: 20px 0px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.648);
+
 }
 .garantias-box img{
     width: 80px;
@@ -249,8 +258,37 @@ padding: 20px 10px;
     font-weight: 900;
     font-size:20px;
     margin-top:30px;
+    margin-bottom:2px;
 }
+.garantias-box p{font-size:14px;}
 /*         GARANTIAS - END         */
+
+/*         QUEM SOMOS - START         */
+#quem-somos{
+    background-image: url(../img/4tratada.png);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 400px;
+    margin-top: -30px;
+    width:100%;
+}
+#quem-somos div{
+    padding:100px auto;
+    text-align: center;
+    height: 250px;
+    margin: 20px auto;
+}
+#quem-somos p{
+    color:#ffffff;
+    font-size:18px;
+    margin: 0px auto;
+    text-align: left;
+}
+
+
+/*         QUEM SOMOS - END         */
 
 
 @media only screen and (max-width: 765px) {
@@ -298,20 +336,32 @@ padding: 20px 10px;
     margin: 0px;
     font-size:2em;}
     #garantias{
-}
-    }
+        flex-direction: row;
+        margin: 0px 0px;}
     .garantias-box{
-        background: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        width: 34%;
+        height: 180px;
+        padding: auto 40px;
+    }
+    .garantias-box h3{
+        font-size: 15px;
+    }
+    #quem-somos{
+        background-size: 100% auto;
+        background-position: top left;
+    }
+    #quem-somos div{
+        padding:100px auto;
         text-align: center;
-        margin: 10px auto;
-        width: 100%;
-        height: 200px;
-        border-radius: 50px;
-        padding: 20px 10px;
-        }
+        height: 250px;
+        margin-left: 50%;
+        margin-top:10px;
+    }
+    #quem-somos p{
+        padding:20px;
+    }
+
+}   
+
     
     
-}
