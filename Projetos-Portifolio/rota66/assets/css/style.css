@@ -1,0 +1,371 @@
+/*         NAVBAR - START         */
+.navigation {
+    height: 4em;
+    background: linear-gradient(#000000,#000000c6);
+   /* position:fixed;
+    top:0;
+    width: 100%;*/
+
+}
+.brand {
+    position: absolute;
+    padding-left: 20px;
+    float: left;
+    line-height: 55px;
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+.brand a, .brand a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+.logo-top{
+    width:45%;
+    max-width: 200px;
+}
+.li-icons{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+.li-icons-a{
+    width:100%;
+    text-align: center;
+  font-size: 25px;}
+.li-icons-a::after{
+    content: '';
+    display: none;
+
+}
+.nav-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+nav {
+    float: right;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    float: left;
+    position: relative;
+}
+nav ul li a,nav ul li a:visited {
+    display: block;
+    padding: 5px 20px;
+    line-height: 55px;
+    color: #fff;
+    background:#313131;
+    text-decoration: none;
+}
+nav ul li a{
+    background: transparent;
+    color: #FFF;
+}
+nav ul li a:hover, nav ul li a:visited:hover {
+    background: #f6f6f6;
+    color: black;
+    border-radius: 5px;
+    transition: all 500ms;
+}
+.navbar-dropdown li a{
+    background: #2581DC;
+}
+nav ul li a:not(:only-child):after, nav ul li a:visited:not(:only-child):after {
+    padding-left: 4px;
+    content: ' \025BE';
+}
+nav ul li ul li {
+    min-width: 190px;
+}
+nav ul li ul li a {
+    padding: 15px;
+    line-height: 20px;
+}
+.navbar-dropdown {
+    position: absolute;
+    display: none;
+    z-index: 1;
+    background: #fff;
+    box-shadow: 0 0 35px 0 rgba(0,0,0,0.25);
+}
+/* Mobile navigation */
+.nav-mobile {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    height: 55px;
+    width: 70px;
+}
+#navbar-toggle {
+    position: absolute;
+    left: 18px;
+    top: 15px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+}
+#navbar-toggle span, #navbar-toggle span:before, #navbar-toggle span:after {
+    cursor: pointer;
+    border-radius: 2px;
+    height: 3px;
+    width: 30px;
+    background: #ffffff;
+    position: absolute;
+    display: block;
+    content: '';
+    transition: all 300ms ease-in-out;
+}
+#navbar-toggle span:before {
+    top: -10px;
+}
+#navbar-toggle span:after {
+    bottom: -10px;
+}
+#navbar-toggle.active span {
+    background-color: transparent;
+}
+#navbar-toggle.active span:before, #navbar-toggle.active span:after {
+    top: 0;
+}
+#navbar-toggle.active span:before {
+    transform: rotate(45deg);
+}
+#navbar-toggle.active span:after {
+    transform: rotate(-45deg);
+
+}
+/*         NAVBAR - END         */
+
+/*         NAVBAR - END         */
+/*         APRESENTAÇÃO - START         */
+.apresentacao{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    height: 100vw;
+    max-height: 600px;
+    animation: backgrounSlide infinite 15s;
+}
+.apresentacao img{
+    min-width: 5em;
+    max-width:15em;
+    transition: 500ms;
+    margin-top: 10px;
+}
+.apresentacao img:hover{
+    opacity: 0;
+}
+.h1-main{
+     font-weight: 900;
+     color:white;
+     font-size: 1em;
+     text-shadow: #00000050 2px 2px 1px;
+     margin: 0px;
+     transition: 500ms;}
+.h1-main:hover{
+    opacity: 0;
+}
+.h1-main2{ text-align: center;
+font-size: 25px;
+padding-top: 50px;
+padding-bottom: 20px;}
+.h1-main2:hover{
+    opacity: 1;
+}
+/*         APRESENTAÇÃO - END         */
+
+@keyframes backgrounSlide {
+0%{
+    background-image: url(../img/6.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    }
+25%{
+    background-image: url(../img/1.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+50%{
+    background-image: url(../img/3.webp); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+75%{
+    background-image: url(../img/5.webp); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+100%{
+    background-image: url(../img/6.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+}
+.button{
+    padding:15px 20px;
+    border:none;
+    border-radius:25px;
+    margin:30px auto;
+    font-size:15px;
+    cursor:pointer;
+    font-weight: 700;
+    transition: 500ms;
+}
+.button:hover{
+    background-color:#000000;
+    color:#ffffff;
+}
+
+
+
+/*         APRESENTAÇÃO - END         */
+/*         GARANTIAS - START         */
+#garantias{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.garantias-box{
+background: white;
+text-align: center;
+width: 100%;
+padding: 20px 0px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.648);
+
+}
+.garantias-box img{
+    width: 80px;
+    margin: 10px auto
+}
+.garantias-box h3{
+    font-weight: 900;
+    font-size:20px;
+    margin-top:30px;
+    margin-bottom:2px;
+}
+.garantias-box p{font-size:14px;}
+/*         GARANTIAS - END         */
+
+/*         QUEM SOMOS - START         */
+#quem-somos{
+    background-image: none;
+    background-color: #313131;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 400px;
+    margin-top: -30px;
+    width:100%;
+}
+#quem-somos div{
+    padding:100px auto;
+    text-align: center;
+    height: 250px;
+    margin: 20px auto;
+}
+#quem-somos p{
+    color:#ffffff;
+    font-size:18px;
+    margin: 0px 20px;
+    padding: auto;
+    text-align: left;
+}
+
+
+/*         QUEM SOMOS - END         */
+
+
+@media only screen and (max-width: 765px) {
+
+
+/*         NAVBAR - START         */
+    .nav-mobile {
+        display: block;
+        margin-top:8px;
+   }
+    nav {
+        width: 100%;
+        padding: 55px 0 15px;
+   }
+    nav ul {
+        display: none;
+   }
+    nav ul li {
+        float: none;
+   }
+    nav ul li a {
+        padding: 15px;
+        line-height: 20px;
+        background: #262626;
+   }
+    nav ul li ul li a {
+        padding-left: 30px;
+   }
+    .navbar-dropdown {
+        position: static;}
+/*         NAVBAR - END         */
+}
+
+@media screen and (min-width:765px) {
+
+/*         NAVBAR - END         */
+    .nav-list {
+        display: block !important;
+   }
+   /*         NAVBAR - END         */
+   .apresentacao img{
+    margin-top: 0px;
+    width: 15em;
+    }
+    .apresentacao h1{
+    margin: 0px;
+    font-size:2em;}
+    #garantias{
+        flex-direction: row;
+        margin: 0px 0px;}
+    .garantias-box{
+        width: 34%;
+        height: 180px;
+        padding: auto 40px;
+    }
+    .garantias-box h3{
+        font-size: 15px;
+    }
+    #quem-somos{
+        background-size: 100% auto;
+        background-position: top left;
+        background-image: url(../img/4tratada.png);
+    }
+    #quem-somos div{
+        padding:100px auto;
+        text-align: center;
+        height: 250px;
+        margin-left: 50%;
+        margin-top:10px;
+    }
+    #quem-somos p{
+        padding:20px 20px;
+    }
+
+}   
+
+    
+    
