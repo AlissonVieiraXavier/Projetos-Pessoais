@@ -1,5 +1,6 @@
 /*         NAVBAR - START         */
 
+
 (function($) { 
     $(function() { 
   
@@ -29,5 +30,14 @@
       $('html').click(function() {
         $('.navbar-dropdown').hide();
       });
+       
+   
     }); 
   })(jQuery); 
+
+
+
+
+
+
+
