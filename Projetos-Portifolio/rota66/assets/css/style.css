@@ -298,9 +298,18 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.648);
     padding: auto;
     text-align: left;
 }
-
-
 /*         QUEM SOMOS - END         */
+/*         MODELOS - START         */
+
+#modelos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grid-modelos{
+    display:grid;
+    
+}
 
 
 @media only screen and (max-width: 765px) {
