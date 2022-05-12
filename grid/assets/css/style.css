@@ -7,7 +7,7 @@
        "conteudo"
        "rodape";
     grid-template-columns: auto;
-    grid-template-rows: 50px 100vh auto;
+    grid-template-rows: 50px auto auto;
     max-width: 100%;
 }
 
@@ -15,7 +15,10 @@
     grid-area: cabecalho;
     display:flex;
     align-items: center;
+    justify-content: center;
     padding: 0 2rem;
+    width: 100%;
+    min-width: 341px;
 }
  
 .conteudo {
@@ -30,4 +33,16 @@
     font-size: .8rem;
     padding: 1rem;
     text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .cabecalho {
+        grid-area: cabecalho;
+        display:flex;
+        align-items: center;
+        justify-content: left;
+        padding: 0 2rem;
+        width: 100%;
+    }
+    
 }

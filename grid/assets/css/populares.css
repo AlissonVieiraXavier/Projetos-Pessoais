@@ -6,6 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 1rem 0rem;
+    flex-direction: column;
 }
 
 .populares__card {
@@ -17,7 +18,8 @@
     grid-template-columns: 100%;
     grid-template-rows: 173px auto;
     margin-right: 1rem;
-    width: calc(20% - 1rem);
+    width: 100%;
+    margin-bottom: 3rem;
 }
 
 .populares__card:last-child {
@@ -83,4 +85,24 @@
     background: transparent;
     border: none;
     color: #333333;
+}
+@media screen and (min-width:768px) {
+    .populares__conteudo {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem 0rem;
+        flex-direction: row;
+    }
+    .populares__card {
+        background: #fdfdfd;
+        display: grid;
+        grid-template-areas: 
+            "card-imagem"
+            "card-corpo";
+        grid-template-columns: 100%;
+        grid-template-rows: 173px auto;
+        margin-right: 1rem;
+        width: calc(20% - 1rem);
+    }
+    
 }

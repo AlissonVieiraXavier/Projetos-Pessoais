@@ -1,6 +1,6 @@
 .menu__link{
     color: #333333;
-    padding: .5rem .1rem;
+    padding: .5rem .5rem;
 
 }
 .menu__link:hover,.menu__link.ativo {
@@ -12,6 +12,11 @@
     .menu__link{
     color: #333333;
     padding: .5rem .6rem;
+
+}
+.menu__link{
+    color: #333333;
+    padding: .5rem .9rem;
 
 }
 }
