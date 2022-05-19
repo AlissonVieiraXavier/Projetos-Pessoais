@@ -2110,6 +2110,30 @@ text-align: center;
   position: relative;
 }
 
+/*section certificados - START */
+
+#certificacoes{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  height:400px;
+  width:100%;
+}
+.slide-cursos{
+  margin-top:30px;
+}
+.slide-curso{
+  text-align: center;
+  margin: 0;
+}
+.slide-curso img{
+  width: 20em;
+  border-radius: 25px 2px 25px 2px;
+}
+
+
+
+
 /* Sections background: Twitter */
 .section-twitter {
   background: url(../img/timeline-img.jpg) center no-repeat fixed;
