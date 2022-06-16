@@ -1,3 +1,11 @@
+<?php 
+//aplicando urls amigaveis!
+$geturl = strip_tags(trim(filter_input(INPUT_GET,'url',FILTER_DEFAULT)));
+$seturl = (empty($geturl) ? 'index' : $geturl);
+$url = explode('/', $seturl);
+var_dump($url);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,8 +13,6 @@
     <meta charset="utf-8">
     <title>PetLover - Pet Care Website Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
