@@ -49,7 +49,24 @@ table {
 }
 
 :root{
-    --main-color:#f4f4f4;
+    --main-color:#ffffff;
     --second-color:#f2bc24;
     --third-color:#353e47;
+}
+
+.btn-convert{
+    font-size:17px;
+    text-decoration: none;
+    color:var(--main-color);
+    background: var(--second-color);
+    padding: 15px;
+    border-radius: 30px;
+    transition: 500ms;
+    box-shadow: 2px 2px 1px 0px rgba(242, 187, 36, 0.213);
+}
+.btn-convert:hover{
+    transition: 500ms;
+    color:var(--third-color);
+    font-weight:500;
+
 }
