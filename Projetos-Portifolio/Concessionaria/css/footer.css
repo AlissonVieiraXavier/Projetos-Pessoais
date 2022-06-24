@@ -6,7 +6,7 @@
     padding:0px 30px;
 }
 .logodescrição img{
-    max-width: 35%;
+    max-width: 50%;
 }
 .logodescrição p{
     font-size:14px;
@@ -75,6 +75,9 @@
     } 
     .footer-followus{
         width: 25%; 
+    }
+    .logodescrição img{
+        max-width: 35%;
     }
    
 }

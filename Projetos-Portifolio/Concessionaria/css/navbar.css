@@ -17,8 +17,9 @@
     font-size: 14px;
 }
 .navbar-top-icons i{
-    font-size: 14px;
+    font-size: 16px;
     margin-right: 10px;
+    cursor:pointer;
 }
 .btn-nav{
     display:none;
