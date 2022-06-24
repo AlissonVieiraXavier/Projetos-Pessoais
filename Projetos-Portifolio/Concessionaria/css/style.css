@@ -54,6 +54,8 @@ table {
     --third-color:#353e47;
 }
 
+/* botao convert //////////////// */
+
 .btn-convert{
     font-size:17px;
     text-decoration: none;
@@ -70,3 +72,30 @@ table {
     font-weight:500;
 
 }
+/* botaão whatsapp //////////////// */
+
+.whatsflut{
+    position:fixed;
+    width:90px;
+    height:90px;
+    bottom:10px;
+    right:10px;
+    background-color:#25d366;
+    color:#FFF;border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index:1000;
+    transition: 500ms;
+  }
+  .whatsappicon{
+    color:white;
+    font-size: 60px;
+    padding-top: 0px;
+  }
+  .whatsflut:hover{
+    background-color:var(--second-color);
+    transition:500ms;
+  }
+
+  /* botaão whatsapp //////////////// */

@@ -9,7 +9,6 @@
 .banner-divtext{
     display:flex;
     flex-direction:column;
-   /* border: 1px solid red;*/
 }
 .banner-divtext-h1{
     font-size:2.5em;
@@ -21,13 +20,14 @@
     max-width:70%;
 }
 .banner-divtext-a{
-    width: 175px;
-    padding: 15px;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
     margin:10px 20px;
+    cursor: pointer;
     background:linear-gradient(45deg,var(--second-color),#f2bb24bb);
 }
 .banner-divimg{
-   /* border: 1px solid blue;*/
    padding: 0px;
    margin: 20px 0px;
 

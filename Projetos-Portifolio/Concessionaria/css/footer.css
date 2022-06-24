@@ -36,6 +36,7 @@
 .footer-icons i{
     font-size:18px;
     margin-left: 10px;
+    cursor:pointer;
     transition: 500ms;
 }
 .footer-icons i:hover{
