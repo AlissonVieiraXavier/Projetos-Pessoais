@@ -3,7 +3,7 @@
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding:0px 30px;
+    padding:0px 30px 0px 50px;
 }
 .logodescrição img{
     max-width: 50%;
@@ -66,6 +66,7 @@
     }
     .logodescrição{
         width: 50%;
+        padding-left: 80px;
     }
     .logodescrição p{
         max-width: 80%;

@@ -3,7 +3,7 @@
     flex-direction:column;
     align-items: center;
     color:var(--third-color);
-    background-color:#f4f4f4;
+    background-color:#e1e1e1;
 }
 .services-top{
     text-align:center;
@@ -11,10 +11,12 @@
 .services-top h2{
    font-size:30px;
    font-weight:700;
-   margin:30px 10px 10px 10px;
+   margin:80px 10px 10px 10px;
+
 }
 .services-top p{
     font-size:14px;
+    padding:20px 40px;
 }
 
 /* /////////// CARDS //////////////////////  */
@@ -52,7 +54,9 @@ margin-top: 10px;
 }
 
 @media screen and (min-width:856px) {
-  
+    #services{
+        background-color:var(--main-color);
+    }
     .services-cards{
         flex-direction:row;
         max-width:1000px;
