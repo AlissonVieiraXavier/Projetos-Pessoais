@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/banner-top.css">
     <link rel="stylesheet" href="./css/services.css">
+    <link rel="stylesheet" href="./css/contato.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -65,7 +66,7 @@
                 <a href="#!">Parceiros</a>
               </li>
               <li>
-                <a href="#!">Contatos</a>
+                <a href="#contato">Contatos</a>
               </li>
               <a href="#" target="_blank" class="btn-convert btn-nav">
                 Falar conosco
@@ -125,7 +126,18 @@
 </section>
 <!--   SERVICES END   -->
 <!--   FORMULARIO   -->
-   
+<section id="contato">
+  <div class="services-top contato-text">
+    <h2> Get in touch</h2>
+    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis cumque.</p>
+  </div>
+  <form method="POST" action="./php/form.php"class="main-form">
+    <input class="inputform" type="text" name="name" id="name" placeholder="Digite aqui seu nome" required>
+    <input class="inputform" type="email" name="email" id="email "placeholder="Digite aqui seu Email" required>
+    <textarea  class="textarea-form"name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+    <input type="submit" value="Enviar" class="btn-form">
+  </form>
+</section>  
 <!--   FORMULARIO END  -->   
 <!--   WHATSAPP BUTTON   -->  
 <div>
