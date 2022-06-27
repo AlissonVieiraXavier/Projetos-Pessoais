@@ -1,0 +1,19 @@
+#parceiros{
+    padding: 20px 10px;
+}
+.title-parceiros{
+    margin-bottom: 30px;
+}
+.title-parceiros h2{
+  margin-top: 20px;
+}
+.glide__bullets{
+    position: absolute;
+
+}
+.glide__slide{
+    text-align: center;
+}
+.img-parceiros{
+    width: 50%;
+}

@@ -4,6 +4,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     padding:0px 30px 0px 30px;
+    background:#e1e1e1;
 }
 .logodescrição img{
     max-width: 50%;

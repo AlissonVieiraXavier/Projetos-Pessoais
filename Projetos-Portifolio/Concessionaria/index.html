@@ -10,13 +10,19 @@
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/banner-top.css">
     <link rel="stylesheet" href="./css/services.css">
+    <link rel="stylesheet" href="./css/parceiros.css">
     <link rel="stylesheet" href="./css/contato.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <title>Document</title>
+    <!-- Required Core Stylesheet -->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <!-- Optional Theme Stylesheet -->
+     <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+
 </head>
 <body>
 <!--   NAVBAR TOP   -->
@@ -125,6 +131,26 @@
   </div>
 </section>
 <!--   SERVICES END   -->
+<!--   PARCEIROS   -->
+<section id="parceiros">
+  <div class="services-top contato-text title-parceiros">
+    <h2> Partners</h2>
+    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis cumque.</p>
+  </div>
+  <div class="glide">
+    <div class="glide__track" data-glide-el="track">
+    <ul class="glide__slides">
+        <li class="glide__slide"><img  class="img-parceiros" src="./assets/img/svg/bosch.svg" alt="img"></img></li>
+        <li class="glide__slide"><img  class="img-parceiros" src="./assets/img/svg/bmw.svg" alt="img"></img></li>
+        <li class="glide__slide"><img  class="img-parceiros" src="./assets/img/svg/dunlop.svg" alt="img"></img></li>
+        <li class="glide__slide"><img  class="img-parceiros" src="./assets/img/svg/renault.svg" alt="img"></img></li>
+        <li class="glide__slide"><img  class="img-parceiros" src="./assets/img/svg/volkswagen.svg" alt="img"></img></li>
+    </ul>
+    </div>
+</div>
+
+</section>
+<!--   PARCEIROS END   -->
 <!--   FORMULARIO   -->
 <section id="contato">
   <div class="services-top contato-text">
@@ -179,8 +205,25 @@
 </html>
     
 
-   <script defer src="./js/jquery.js"></script> 
+   <script defer src="./js/jquery.js"></script>
+   <script defer type="text/javascript" src="./libs/slick-1.8.1/slick/slick.min.js"></script> 
    <script defer src="./js/main.js"></script> 
-   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+   <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+   <script>
+        new Glide('.glide',{
+            type:"carousel",
+            startAt: 0,
+            perView: 5,
+            hoverpause: true,
+            rewind:true,
+            autoplay:true,
+            animationDuration:3500,
+
+        },{
+             800: {
+                 perView: 2
+                          }
+        }).mount()
+  </script>
 </body>
 </html>
